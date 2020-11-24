@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background:#679EBE !important;
+  background:#338eda !important;
   height: 60px;
 }
 
@@ -1543,7 +1543,7 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #297fb4;
+  background: #338eda;
   color: #fff;
   border-top: 4px solid #1acc8d;
   text-align: center;
