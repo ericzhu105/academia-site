@@ -1,6 +1,6 @@
 # acedemia-site
 
-##Welcome this is the project that is working to change our old website to a fresher look.  
+## Welcome this is the project that is working to change our old website to a fresher look.  
 
 Also testing the capabilities of github.
 
