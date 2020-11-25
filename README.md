@@ -7,3 +7,5 @@ As Waseem Latif once said,
 > Code once.
 
 Created by NexEdge Innovations.
+
+To make the documents such as README.md more fancy use Markdown syntax.
