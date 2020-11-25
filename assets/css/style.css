@@ -1,4 +1,4 @@
-.c/**
+/**
 * Template Name: Bootslander - v2.2.0
 * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
 * Author: BootstrapMade.com
@@ -119,7 +119,8 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #5193ff !important;
+  background: #4285F4 !important;
+  box-shadow: 0px 5px 10px white;
   
 }
 
@@ -406,7 +407,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   background: url("../img/hero-bg.jpg");
   position: relative;
-  padding: 120px 0 0 0;
+  padding: 130px 0 0 0;
 }
 
 #hero:before {
