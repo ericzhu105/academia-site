@@ -1,4 +1,4 @@
-/**
+.c/**
 * Template Name: Bootslander - v2.2.0
 * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
 * Author: BootstrapMade.com
@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: #fffb00;
+  color:  #F4B400;
 }
 
 a:hover {
-  color: #fffb00;
+  color: #F4B400;
   text-decoration: none;
 }
 
@@ -119,7 +119,8 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #2F9DE2 !important;
+  background: #5193ff !important;
+  
 }
 
 #header.header-transparent {
@@ -127,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background:#679EBE !important;
+  background:#338eda !important;
   height: 60px;
 }
 
@@ -410,7 +411,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: #3F61A8;
+  background: #4285F4;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -447,11 +448,11 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: rgba(255, 255, 0, 0.5);
+  background: #fffb00;
 }
 
 #hero .btn-get-started:hover {
-  background: #fffb00;
+  background: #615f0b;
 }
 
 #hero .animated {
@@ -1543,7 +1544,7 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #297fb4;
+  background: #338eda;
   color: #fff;
   border-top: 4px solid #1acc8d;
   text-align: center;
