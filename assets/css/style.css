@@ -721,6 +721,13 @@ section {
   margin-bottom: 15px;
 }
 
+.about .icon-boxes2 h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: grey;
+  margin-bottom: 15px;
+}
+
 .about .icon-box {
   margin-top: 40px;
 }
