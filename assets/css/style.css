@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #F4B400;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -120,8 +120,6 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   background: #4285F4 !important;
-  box-shadow: 0px 5px 10px rgb(3, 0, 0);
-  
 }
 
 #header.header-transparent {
@@ -129,7 +127,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background:#338eda !important;
+  background:#4285F4;
+  background-color: #338fdace !important;
+  display: block;
+  backdrop-filter: blur(15px);
   height: 60px;
 }
 
@@ -655,7 +656,7 @@ section {
   background-color: #fafaff;
   min-height: 40px;
   margin-top: 80px;
-}
+}a
 
 @media (max-width: 992px) {
   .breadcrumbs {
@@ -1149,6 +1150,15 @@ section {
   padding: 15px 0;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.a { 
+  color: #fff;
+  transition: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
 }
 
 .team .member h4 {
