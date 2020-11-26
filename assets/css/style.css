@@ -92,13 +92,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 60px;
   height: 60px;
   border-radius: 50px;
-  background: #1acc8d;
+  background: #4285F4;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #2be4a2;
+  background: #4285F4;
   color: #fff;
 }
 
@@ -413,7 +413,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: #4285F4;
+  background: #4a9cff;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -716,14 +716,14 @@ section {
 }
 
 .about .icon-boxes h3 {
-  font-size: 28px;
+  font-size: 75px;
   font-weight: 700;
   color: #010483;
   margin-bottom: 15px;
 }
 
 .about .icon-boxes2 h3 {
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 500;
   color: grey;
   margin-bottom: 15px;
@@ -747,7 +747,7 @@ section {
 
 .about .icon-box .icon i {
   color: #1acc8d;
-  font-size: 32px;
+  font-size: 70px;
 }
 
 .about .icon-box:hover .icon {
@@ -1151,15 +1151,7 @@ section {
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
-.a { 
-  color: #fff;
-  transition: none;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  transition: 0.3s;
-}
+
 
 .team .member h4 {
   font-weight: 700;
