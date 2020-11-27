@@ -933,12 +933,202 @@ section {
 .features .icon-box:hover {
   background: #ebebff;
 }
+/*---------------------------------------------------------------
+Courses--------------
+-------------------------*/
+.courses {
+  background: #f5f5ff;
+  padding: 40px 0 60px;
+}
+
+.courses .icon-boxes h3 {
+  font-size: 75px;
+  font-weight: 700;
+  color: #010483;
+  margin-bottom: 15px;
+}
+
+.courses .icon-boxes2 h3 {
+  font-size: 40px;
+  font-weight: 500;
+  color: grey;
+  margin-bottom: 15px;
+}
+
+.courses .icon-box {
+  margin-top: 40px;
+}
+
+.courses .icon-box .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #7ceec6;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+.courses .icon-box .icon i {
+  color: #1acc8d;
+  font-size: 70px;
+}
+
+.courses .icon-box:hover .icon {
+  background: #1acc8d;
+  border-color: #1acc8d;
+}
+
+.courses .icon-box:hover .icon i {
+  color: #fff;
+}
+
+.courses .icon-box .title {
+  margin-left: 85px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.courses .icon-box .title a {
+  color: #343a40;
+  transition: 0.3s;
+}
+
+.courses .icon-box .title a:hover {
+  color: #1acc8d;
+}
+
+.courses .icon-box .description {
+  margin-left: 85px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.courses .video-box {
+  background: url("../img/about.png") center center no-repeat;
+  background-size: contain;
+  min-height: 300px;
+}
+
+.courses .play-btn {
+  width: 94px;
+  height: 94px;
+  background: radial-gradient(#3f43fd 50%, rgba(63, 67, 253, 0.4) 52%);
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  left: calc(50% - 47px);
+  top: calc(50% - 47px);
+  overflow: hidden;
+}
+
+.courses .play-btn::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 100;
+  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.courses .play-btn::before {
+  content: '';
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation: pulsate-btn 2s;
+  animation: pulsate-btn 2s;
+  -webkit-animation-direction: forwards;
+  animation-direction: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: steps;
+  animation-timing-function: steps;
+  opacity: 1;
+  border-radius: 50%;
+  border: 5px solid rgba(63, 67, 253, 0.7);
+  top: -15%;
+  left: -15%;
+  background: rgba(198, 16, 0, 0);
+}
+
+.courses .play-btn:hover::after {
+  border-left: 15px solid #3f43fd;
+  transform: scale(20);
+}
+
+.courses .play-btn:hover::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border: none;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 200;
+  -webkit-animation: none;
+  animation: none;
+  border-radius: 0;
+}
+
+@-webkit-keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+@keyframes pulsate-btn {
+  0% {
+    transform: scale(0.6, 0.6);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+.btn-to-sign-up {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #F4B400;
+}
+
+.btn-to-sign-up:hover {
+  background: #cc9600;
+}
 
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: #f5f5ff;
+  background: #4a9cff;
   padding: 70px 0 60px;
 }
 
