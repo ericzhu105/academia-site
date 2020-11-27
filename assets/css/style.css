@@ -1110,11 +1110,48 @@ Courses--------------
 .btn-to-sign-up {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  font-size:16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding:10px 30px;
+  border-radius: 10px;
+  background-color: #F4B400;
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-bottom:10px;
+  text-align:center;
+}
+.btn-to-sign-up span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.btn-to-sign-up span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+}
+.btn-to-sign-up:hover span {
+  padding-right: 25px;
+}
+.btn-to-sign-up:hover span:after {
+  opacity: 1;
+  right: 0;
+}/*
+.btn-to-sign-up {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 30px;
   border-radius: 50px;
+  margin-bottom:10px;
   transition: 0.5s;
   color: #fff;
   background: #F4B400;
@@ -1122,7 +1159,7 @@ Courses--------------
 
 .btn-to-sign-up:hover {
   background: #cc9600;
-}
+}*/
 
 /*--------------------------------------------------------------
 # Counts
