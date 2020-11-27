@@ -1119,8 +1119,8 @@ Courses--------------
   border: none;
   transition: all 0.5s;
   cursor: pointer;
-  margin-bottom:10px;
   text-align:center;
+  width:100%;
 }
 .btn-to-sign-up span {
   cursor: pointer;
@@ -1142,25 +1142,34 @@ Courses--------------
 .btn-to-sign-up:hover span:after {
   opacity: 1;
   right: 0;
-}/*
-.btn-to-sign-up {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 30px;
-  border-radius: 50px;
-  margin-bottom:10px;
-  transition: 0.5s;
-  color: #fff;
-  background: #F4B400;
 }
-
 .btn-to-sign-up:hover {
-  background: #cc9600;
-}*/
-
+  background-color: #cc9600;
+}
+.courseimg {
+  width:100%;
+  height:auto;
+  border-radius:25px;
+  vertical-align: middle;
+  max-height:900px;
+  margin-left:-3px;
+}
+.helperalign {
+  display:inline-block;
+  height:100%;
+  vertical-align: middle;
+}
+.imgcontainer {
+  width:100%;
+  white-space:nowrap;
+  display:block;
+}
+.btn-float {
+  width:33%;
+  float:left;
+  padding-left:10px;
+  padding-right:10px;
+}
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
