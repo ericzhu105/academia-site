@@ -439,7 +439,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 
-#hero .btn-get-started {
+#hero .btn-get-started, .btn-to-visit {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -452,8 +452,8 @@ h1, h2, h3, h4, h5, h6 {
   background: #F4B400;
 }
 
-#hero .btn-get-started:hover {
-  background: #615f0b;
+#hero .btn-get-started:hover, .btn-to-vist:hover {
+  background: #cc9600;
 }
 
 #hero .animated {
@@ -880,7 +880,22 @@ section {
     opacity: 0;
   }
 }
+.btn-to-visit {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #F4B400;
+}
 
+.btn-to-visit:hover {
+  background: #cc9600;
+}
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
@@ -1429,7 +1444,7 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #1acc8d;
+  background: #F4B400;
   color: #fff;
 }
 
@@ -1507,7 +1522,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #1acc8d;
+  background: #F4B400;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1516,7 +1531,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #34e5a6;
+  background: #cc9600;
 }
 
 @-webkit-keyframes animate-loading {
