@@ -711,7 +711,8 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  padding: 40px 0 0 0;
+  background-color:#f5f5ff;
+  padding: 40px 0 60px;
 }
 
 .about .icon-boxes h3 {
@@ -937,8 +938,7 @@ section {
 Courses--------------
 -------------------------*/
 .courses {
-  background: #f5f5ff;
-  padding: 40px 0 60px;
+  padding: 40px 0px 0px;
 }
 
 .courses .icon-boxes h3 {
