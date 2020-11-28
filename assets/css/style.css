@@ -1116,6 +1116,7 @@ Courses--------------
   padding:10px 30px;
   border-radius: 10px;
   background-color: rgb(74, 156, 255);
+  display: flex;
   border: none;
   transition: all 0.5s;
   cursor: pointer;
