@@ -430,7 +430,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 span {
   color: #fff;
-  border-bottom: 4px solid #F4B400;
+  border-bottom: 4px solid #16dd97;
 }
 
 #hero h2 {
@@ -891,11 +891,11 @@ section {
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
-  background: #F4B400;
+  background: #16dd97;
 }
 
 .btn-to-visit:hover {
-  background: #cc9600;
+  background: #16dd97;
 }
 /*--------------------------------------------------------------
 # Features
@@ -1115,7 +1115,7 @@ Courses--------------
   display: inline-block;
   padding:10px 30px;
   border-radius: 10px;
-  background-color: #F4B400;
+  background-color: rgb(74, 156, 255);
   border: none;
   transition: all 0.5s;
   cursor: pointer;
@@ -1144,7 +1144,7 @@ Courses--------------
   right: 0;
 }
 .btn-to-sign-up:hover {
-  background-color: #cc9600;
+  background-color: #16dd97;
 }
 .button-bar {
   margin-bottom:10px;
@@ -1212,7 +1212,7 @@ Courses--------------
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #F4B400;
+  background: #16dd97;
   padding: 12px;
   color: #fff;
   border-radius: 50px;
