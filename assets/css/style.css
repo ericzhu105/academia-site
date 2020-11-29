@@ -1560,7 +1560,7 @@ Courses--------------
   position: absolute;
   right: 0;
   left: 20px;
-  color: #F4B400;
+  color: rgb(22, 221, 151);
 }
 
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
@@ -1581,10 +1581,11 @@ Courses--------------
 
 .faq .faq-list a.collapsed {
   color: #343a40;
+  transition: 1s;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #4a9cff;
+  color: rgb(22, 221, 151);
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1643,7 +1644,7 @@ Courses--------------
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #F4B400;
+  background: rgb(22, 221, 151);
   color: #fff;
 }
 
@@ -1721,7 +1722,7 @@ Courses--------------
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #F4B400;
+  background: #4a9cff;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1730,7 +1731,7 @@ Courses--------------
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #cc9600;
+  background: #4a9cff;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1755,7 +1756,7 @@ Courses--------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #3366cc;
+  background: #4a9cff;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1767,9 +1768,9 @@ Courses--------------
 
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
-  background: #4a9cff;
+  background: #276ec585;
   color: #fff;
-  border-top: 4px solid #F4B400;
+  border-top: 4px solid #18d26e;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1829,7 +1830,7 @@ Courses--------------
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #F4B400;
+  color: #4a9cff;
   font-size: 18px;
   line-height: 1;
 }
