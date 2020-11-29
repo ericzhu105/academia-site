@@ -45,8 +45,8 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #1acc8d;
-  border-top-color: #d2f9eb;
+  border: 6px solid #4a9cff;
+  border-top-color: #cde4ff;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -655,7 +655,7 @@ section {
   background-color: #fafaff;
   min-height: 40px;
   margin-top: 80px;
-}a
+}
 
 @media (max-width: 992px) {
   .breadcrumbs {
@@ -1107,90 +1107,32 @@ Courses--------------
     opacity: 0;
   }
 }
-.btn-to-sign-up {
+
+.btn-outline-primary {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size:16px;
   letter-spacing: 1px;
   display: inline-block;
-  padding:10px 30px;
+  padding: 5px;
+  margin: 6px 4px 12px 0px;
   border-radius: 10px;
-  background-color: rgb(74, 156, 255);
-  display: flex;
-  border: none;
   transition: all 0.5s;
   cursor: pointer;
-  text-align:center;
-  width:100%;
+  text-align: center;
+  width: 100%;
+}   
+
+
+.team .member .social a:hover {
+  color: #1acc8d;
 }
-.btn-to-sign-up span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+
+.team .member .social i {
+  font-size: 16px;
+  margin: 0 2px;
 }
-.btn-to-sign-up span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -15px;
-  transition: 0.5s;
-}
-.btn-to-sign-up:hover span {
-  padding-right: 25px;
-}
-.btn-to-sign-up:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-.btn-to-sign-up:hover {
-  background-color: #16dd97;
-}
-.button-bar {
-  margin-bottom:10px;
-}
-.course-div {
-  width:100%;
-  height:auto;
-  vertical-align: middle;
-  margin-left:-3px;
-  display:inline-block;
-}
-.course-img {
-  display:block;
-  width:100%;
-  border-radius:25px;
-}
-.helperalign {
-  display:inline-block;
-  height:100%;
-  vertical-align: middle;
-}
-.imgcontainer {
-  width:100%;
-  white-space:nowrap;
-}
-.btn-float {
-  width:33%;
-  float:left;
-  padding-left:10px;
-  padding-right:10px;
-  margin-top:20px;
-  white-space:normal;
-}
-@media screen and (min-width: 992px) {
-  .btn-float {
-    float: none;
-    width:100%;
-    margin:10px;
-    display:flex;
-    justify-content:center;
-  }
-  .btn-to-sign-up {
-    width:300px;
-  }
-}
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
