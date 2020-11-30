@@ -13,19 +13,16 @@ body {
   color: #444444;
 }
 
-/*a {
-  color:  #F4B400;
-}*/
+/*
+green color:#16dd97
+blue color: #4a9cff;
 
-a:hover {
-  color: #4a9cff;
-  text-decoration: none;
-}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
 }
-
+*/
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -199,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 3px;
   left: 25px;
-  background-color: #F4B400;
+  background-color: #16dd97;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -345,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #F4B400;
+  color: #16dd97;
   text-decoration: none;
 }
 
@@ -634,7 +631,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #F4B400;
+  background: #16dd97;
   margin: 4px 10px;
 }
 
