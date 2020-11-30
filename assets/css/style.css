@@ -450,6 +450,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   color: #fff;
   background: #16dd97;
+  border-width: 0px;
 }
 
 #hero .btn-get-started:hover, .btn-to-vist:hover {
