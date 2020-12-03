@@ -452,6 +452,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .btn-get-started:hover, .btn-to-vist:hover {
   background: #06f09e;
+  text-decoration: none;
 }
 
 #hero .animated {
@@ -1106,22 +1107,92 @@ Courses--------------
   }
 }
 
-.btn-outline-primary {
+.btn-to-sign-up {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size:16px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 5px;
-  margin: 6px 4px 12px 0px;
+  padding: 10px 30px;
   border-radius: 10px;
   transition: all 0.5s;
   cursor: pointer;
   text-align: center;
   width: 100%;
+  border:2px solid #4a9cff;
+  color:#4a9cff;
 }   
 
-
+.btn-to-sign-up span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.btn-to-sign-up span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+}
+.btn-to-sign-up:hover span {
+  padding-right: 25px;
+}
+.btn-to-sign-up:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.btn-to-sign-up:hover {
+  color:white;
+  background-color:#4a9cff;
+}
+.button-bar {
+  margin-bottom:10px;
+}
+.course-div {
+  width:100%;
+  height:auto;
+  vertical-align: middle;
+  margin-left:-3px;
+  display:inline-block;
+}
+.course-img {
+  display:block;
+  width:100%;
+  border-radius:25px;
+}
+.helperalign {
+  display:inline-block;
+  height:100%;
+  vertical-align: middle;
+}
+.imgcontainer {
+  width:100%;
+  white-space:nowrap;
+}
+.btn-float {
+  width:33%;
+  float:left;
+  padding-left:2px;
+  padding-right:2px;
+  margin-top:20px;
+  white-space:normal;
+}
+/*eliminating the arrow when screen large*/
+@media screen and (min-width: 992px) {
+  .btn-to-sign-up span:after {
+    display:none;
+  }
+  .btn-to-sign-up:hover span {
+    padding-right: 0px;
+  }
+  .btn-to-sign-up {
+    padding:10px 0px;
+    font-size:15px;
+  }
+}
 .team .member .social a:hover {
   color: #1acc8d;
 }
