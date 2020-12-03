@@ -1118,7 +1118,8 @@ Courses--------------
   cursor: pointer;
   text-align: center;
   width: 100%;
-  border-color
+  border:3px solid #4a9cff;
+  color:#4a9cff;
 }   
 
 .btn-to-sign-up span {
@@ -1143,7 +1144,8 @@ Courses--------------
   right: 0;
 }
 .btn-to-sign-up:hover {
-  background-color: #16dd97;
+  color:white;
+  background-color:#4a9cff;
 }
 .button-bar {
   margin-bottom:10px;
@@ -1172,11 +1174,12 @@ Courses--------------
 .btn-float {
   width:33%;
   float:left;
-  padding-left:10px;
-  padding-right:10px;
+  padding-left:3px;
+  padding-right:3px;
   margin-top:20px;
   white-space:normal;
 }
+/*
 @media screen and (min-width: 992px) {
   .btn-float {
     float: none;
@@ -1188,6 +1191,7 @@ Courses--------------
   .btn-to-sign-up {
     width:300px;
   }
+}*/
 .team .member .social a:hover {
   color: #1acc8d;
 }
