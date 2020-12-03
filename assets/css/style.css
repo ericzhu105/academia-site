@@ -1118,7 +1118,7 @@ Courses--------------
   cursor: pointer;
   text-align: center;
   width: 100%;
-  border:3px solid #4a9cff;
+  border:2px solid #4a9cff;
   color:#4a9cff;
 }   
 
@@ -1174,24 +1174,24 @@ Courses--------------
 .btn-float {
   width:33%;
   float:left;
-  padding-left:3px;
-  padding-right:3px;
+  padding-left:2px;
+  padding-right:2px;
   margin-top:20px;
   white-space:normal;
 }
-/*
+/*eliminating the arrow when screen large*/
 @media screen and (min-width: 992px) {
-  .btn-float {
-    float: none;
-    width:100%;
-    margin:10px;
-    display:flex;
-    justify-content:center;
+  .btn-to-sign-up span:after {
+    display:none;
+  }
+  .btn-to-sign-up:hover span {
+    padding-right: 0px;
   }
   .btn-to-sign-up {
-    width:300px;
+    padding:10px 0px;
+    font-size:15px;
   }
-}*/
+}
 .team .member .social a:hover {
   color: #1acc8d;
 }
