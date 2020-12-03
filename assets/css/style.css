@@ -1209,7 +1209,8 @@ Courses--------------
   cursor:pointer
 }
 .w3-badge {
-  height:13px;width:13px;padding:0
+  height:16px;width:16px;padding:0;
+  background-color:black;
 }
 /*--------------------------------------------------------------
 # Counts

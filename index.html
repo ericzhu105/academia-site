@@ -115,8 +115,9 @@
             <p style="text-align: center">See what classes we offer!</p>
           </div>
         </div>
-        <!-- Courses table-->
-        <div class="w3-center" style= "padding: 16px, 8px; background-color: #3366cc">
+        <!-- old courses table-->
+        <!--
+        <div class="w3-center" style= "padding: 8px 8px; background-color: #3366cc">
           <div class="w3-row-padding">
             <div class="w3-third w3-section">
               <ul class="w3-ul w3-white w3-hover-shadow">
@@ -158,8 +159,65 @@
               </ul>
             </div>
           </div>
+        </div>-->
+
+        <br>
+        <div class="w3-center w3-content w3-display-container" style= "padding: 2px 16px; background-color: #3366cc">
+          <div class="w3-section mySlides">
+            <ul class="w3-ul w3-white w3-hover-shadow">
+              <li class=" w3-padding-32" style="background-color: #4a9cff; color: white; font-size: 30px;">HTML/CSS</li>
+              <li class="w3-padding-16"><b>16</b> Week Course</li>
+              <li class="w3-padding-16"><b>4</b> Teachers</li>
+              <li class="w3-padding-16"><b>3</b> Projects</li>
+              <li class="w3-padding-16"><b>10-15</b> Students per Class</li>
+              <li class="w3-padding-16"><b>Class Starts January 9th, 2020</b></li>
+              <li class="w3-light-grey w3-padding-16">
+                <a target="https://forms.gle/3k4wfkeD5emtLDjM9" href="https://forms.gle/3k4wfkeD5emtLDjM9"><button class="btn-to-visit">Sign Up</button></a>
+                <!--space for the slideshow  buttons-->
+                <div style="height:15px;"></div>
+              </li>
+            </ul>
+          </div>
+          <div class="w3-section mySlides">
+            <ul class="w3-ul w3-white w3-hover-shadow">
+              <li class="w3-padding-32" style="background-color: #4a9cff; color: white; font-size: 30px;">Scratch</li>
+              <li class="w3-padding-16"><b>13</b> Week Course</li>
+              <li class="w3-padding-16"><b>2</b> Teachers</li>
+              <li class="w3-padding-16"><b>5</b> Projects</li>
+              <li class="w3-padding-16"><b>10-15</b> Students per Class</li>
+              <li class="w3-padding-16"><b>Class Starts January 9th, 2020</b></li>
+              <li class="w3-light-grey w3-padding-16">
+                <a target="https://forms.gle/ta2zRcZXxng5JdWq6" href="https://forms.gle/ta2zRcZXxng5JdWq6"><button class="btn-to-visit">Sign Up</button></a>
+                <!--space for the slideshow  buttons-->
+                <div style="height:15px;"></div>
+              </li>
+            </ul>
+          </div>
+          <div class="w3-section mySlides">
+            <ul class="w3-ul w3-white w3-hover-shadow">
+              <li class="w3-padding-32" style="background-color: #4a9cff; color: white; font-size: 30px;">Python</li>
+              <li class="w3-padding-16"><b>18</b> Week Course</li>
+              <li class="w3-padding-16"><b>3</b> Teachers</li>
+              <li class="w3-padding-16"><b>3</b> Projects</li>
+              <li class="w3-padding-16"><b>15-20</b> Students per Class</li>
+              <li class="w3-padding-16"><b>Class Starts January 9th, 2020</b></li>
+              <li class="w3-light-grey w3-padding-16">
+                <a target="https://forms.gle/uZ6eodzCTZ38d5mBA" href="https://forms.gle/uZ6eodzCTZ38d5mBA"><button class="btn-to-visit">Sign Up</button></a>
+                <!--space for the slideshow  buttons-->
+                <div style="height:15px;"></div>
+              </li>
+            </ul>
+          </div>
+          <div class="w3-center w3-container w3-section w3-text-black w3-display-bottommiddle" style="width:100%;font-size:30px;">
+            <div class="w3-left w3-hover-text-blue" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right w3-hover-text-blue" onclick="plusDivs(1)">&#10095;</div>
+            <span class="w3-badge demo w3-border w3-hover-blue" onclick="currentDiv(1)"></span>
+            <span class="w3-badge demo w3-border w3-hover-blue" onclick="currentDiv(2)"></span>
+            <span class="w3-badge demo w3-border w3-hover-blue" onclick="currentDiv(3)"></span>
+          </div>
         </div>
-        <!--slideshow-->
+        <!--slideshow (old)-->
+        <!--
         <div class="w3-content w3-display-container" style="max-width:800px">
           <img class="mySlides" src="/assets/img/pythonclasspic.jpg" style="width:100%">
           <img class="mySlides" src="/assets/img/voicesofcarmelquicklook.png" style="width:100%">
@@ -172,7 +230,7 @@
             <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
           </div>
         </div>
-
+-->
 
         <br>
 
@@ -1130,10 +1188,10 @@
         x[i].style.display = "none";  
       }
       for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" w3-white", "");
+        dots[i].className = dots[i].className.replace(" w3-blue", "");
       }
       x[slideIndex-1].style.display = "block";  
-      dots[slideIndex-1].className += " w3-white";
+      dots[slideIndex-1].className += " w3-blue";
     }
   </script>
   <!-- Template Main JS File -->
