@@ -16,9 +16,8 @@ body {
 /*
 green color:#16dd97
 blue color: #4a9cff;
-
-
-
+*/
+/*
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
 }
@@ -451,9 +450,9 @@ h1, h2, h3, h4, h5, h6 {
   border-width: 0px;
 }
 
-#hero .btn-get-started:hover, .btn-to-vist:hover {
+#hero .btn-get-started:hover {
   background: #06f09e;
-  text-decoration: none;
+  text-decoration:none;
 }
 
 #hero .animated {
@@ -895,8 +894,9 @@ section {
 }
 
 .btn-to-visit:hover {
-  background: #16dd97;
+  background: #06f09e;
 }
+
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
