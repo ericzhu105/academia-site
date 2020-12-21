@@ -34,11 +34,6 @@ body::-webkit-scrollbar-thumb {
  
 
  
-/*Disabel horizontal scroll bar */
-div.disabled {
-    overflow-x: hidden;
-    overflow-y: scroll;
-}
 /* Change Selection Text Color When Highlighting */ 
 ::-moz-selection { background-color: #16dd97;
 color: #fff; } 
@@ -1262,7 +1257,7 @@ Courses--------------
   width: 100%;
   position: relative;
   text-align: center;
-  background: #fff;
+  background: #f5f5ff;
 }
 
 .counts .count-box i {
@@ -1344,8 +1339,8 @@ Courses--------------
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
-  padding: 80px 0;
-  background: url("../img/cta-bg.jpg") no-repeat;
+  padding: 180px 0;
+  background: url("https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1358,7 +1353,7 @@ Courses--------------
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(1, 3, 111, 0.8);
+  background:  #3366ccad;
 }
 
 .testimonials .section-header {
@@ -1373,25 +1368,25 @@ Courses--------------
 .testimonials .testimonial-item .testimonial-img {
   width: 100px;
   border-radius: 50%;
-  border: 6px solid rgba(255, 255, 255, 0.15);
+  border: 6px solid rgba(255, 255, 255, 0.945);
   margin: 0 auto;
 }
 
 .testimonials .testimonial-item h3 {
-  font-size: 20px;
+  font-size: 35px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #fff;
 }
 
 .testimonials .testimonial-item h4 {
-  font-size: 14px;
+  font-size: 20px;
   color: #ddd;
   margin: 0 0 15px 0;
 }
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgb(255, 255, 255);
   font-size: 26px;
 }
 
@@ -1415,7 +1410,7 @@ Courses--------------
 }
 
 .testimonials .owl-nav, .testimonials .owl-dots {
-  margin-top: 5px;
+  margin-top: 25px;
   text-align: center;
 }
 
