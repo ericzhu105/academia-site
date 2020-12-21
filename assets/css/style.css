@@ -517,9 +517,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-waves {
   display: block;
-  margin-top: 60px;
+  margin-top: 13%;
   width: 100%;
-  height: 60px;
+  height: 65px;
   z-index: 5;
   position: relative;
 }
@@ -598,6 +598,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translate(85px, 0%);
   }
 }
+
 
 /*--------------------------------------------------------------
 # Sections General
