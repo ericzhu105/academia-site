@@ -10,4 +10,8 @@ As Waseem Latif once said,
 
 Created by NexEdge Innovations.
 
+Version 1 is before we join ScioVirtual.
+
+Version 2 will implement the registration system from ScioVirtual.
+
 To make the documents such as README.md more fancy use Markdown syntax.
