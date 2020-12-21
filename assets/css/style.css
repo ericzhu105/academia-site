@@ -13,6 +13,39 @@ body {
   color: #444444;
 }
 
+
+html {
+  --thumbBG: #3366cc;
+}
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(116, 112, 112, 0.548);
+}
+ 
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 5px;
+  border: 3px solid var(--scrollbarBG);
+}
+ 
+
+ 
+/*Disabel horizontal scroll bar */
+div.disabled {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+/* Change Selection Text Color When Highlighting */ 
+::-moz-selection { background-color: #16dd97;
+color: #fff; } 
+::selection { background-color: #16dd97;
+color: #fff; }
+ 
+
 /*
 green color:#16dd97
 blue color: #4a9cff;
