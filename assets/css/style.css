@@ -1965,6 +1965,7 @@ Courses--------------
 
 #footer .footer-top .footer-links ul a:hover {
   color: #4be8b0;
+  text-decoration: none !important;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -2018,3 +2019,95 @@ Courses--------------
     margin: -20px 0 30px 0;
   }
 }
+
+/*===========================
+     10.FOOTER css 
+===========================*/
+
+
+
+.footer-title .title {
+  font-size: 35px;
+  font-weight: 500; }
+
+.footer-link-wrapper {
+  width: 50%; }
+
+.footer-contact .contact-list li {
+  margin-top: 20px; }
+  .footer-contact .contact-list li .contact-info .info-info {
+    width: 30px; }
+  .footer-contact .contact-list li .contact-info .info-content .text {
+    color: #747E88;
+    font-size: 16px; }
+    .footer-contact .contact-list li .contact-info .info-content .text a {
+      color: #747E88;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
+      .footer-contact .contact-list li .contact-info .info-content .text a:hover {
+        color: #FD6300 ; }
+
+.footer-copyright .copyright {
+  border-top: 2px solid #747E88;
+  padding-top: 10px;
+  padding-bottom: 25px; }
+  .footer-copyright .copyright .copyright-text {
+    padding-top: 15px; }
+    .footer-copyright .copyright .copyright-text .text {
+      color: #747E88; }
+  .footer-copyright .copyright .copyright-privacy {
+    padding-top: 15px; }
+    .footer-copyright .copyright .copyright-privacy a {
+      font-size: 16px;
+      color: #747E88;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
+      .footer-copyright .copyright .copyright-privacy a:hover {
+        color: #0898E7; }
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+         
+        input[type=email], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+         
+        input[type=file], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+         
+        input[type=submit] {
+          background-color: #1acc8d !important;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
