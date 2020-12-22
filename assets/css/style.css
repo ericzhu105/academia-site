@@ -2028,8 +2028,25 @@ Courses--------------
 
 .footer-title .title {
   font-size: 35px;
-  font-weight: 500; }
+  font-weight: 500;
+  border-bottom-style: solid;
+  border-color:#1acc8d  }
 
+  .underline {
+    font-weight: 300;
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+  }
+
+.underline:before{
+    content: "";
+    position: absolute;
+    width: 35%;
+    height: 1px;
+    bottom: 0;
+    border-bottom: 2px solid#1acc8d;
+  }
 .footer-link-wrapper {
   width: 50%; }
 
@@ -2106,7 +2123,7 @@ Courses--------------
         input[type=submit] {
           background-color: #1acc8d !important;
           color: white;
-          padding: 12px 20px;
+          padding: 12px 30px;
           border: none;
           border-radius: 4px;
           cursor: pointer;
