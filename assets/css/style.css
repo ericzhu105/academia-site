@@ -2032,14 +2032,14 @@ Courses--------------
   border-bottom-style: solid;
   border-color:#1acc8d  }
 
-  .underline {
+  .underline1 {
     font-weight: 300;
     display: inline-block;
     padding-bottom: 5px;
     position: relative;
   }
 
-.underline:before{
+.underline1:before{
     content: "";
     position: absolute;
     width: 35%;
