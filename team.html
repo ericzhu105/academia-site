@@ -3,7 +3,6 @@
 
 <head>
 <style>
-
 .hidden {
   display: none;
 }
@@ -59,11 +58,13 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#about">About Us</a></li>
           <li><a href="#courses">Courses</a></li>
          <!-- <li><a href="#gallery">Gallery</a></li> -->
           <li><a href="#team">Team</a></li>
-          <li><a href="#team">Join Us</a></li>
          <!--   <li><a href="#pricing">Donations</a></li> -->
+          <li><a href="#contact">Contact</a></li>
+
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -82,20 +83,19 @@
 
     <form>
       <select class="event-type-select">
-        <option value="all">All Event Types</option>
-        <option value="music">Music</option>
-        <option value="food">Food</option>
-        <option value="art">Art</option>
-        <option value="fashion">Fashion</option>
-        <option value="sport">Sport</option>
-        <option value="history">History</option>
+        <option value="all">The Entire Team</option>
+        <option value="music">Administrators</option>
+        <option value="food">Scratch</option>
+        <option value="art">Web Development</option>
+        <option value="fashion">Python</option>
+        <option value="sport">C#</option>
       </select>
     </form>
 
     <div class="row" data-aos="fade-left">
   
       <div class="col-lg-3 col-md-6">
-        <div class="member" data-aos="zoom-in" data-aos-delay="100">
+        <div class="member" data-aos="zoom-in" data-aos-delay="100" data-eventtype="sport">
           <div class="pic"><img src="/assets/img/profilepic/raghavprofilepic.png" class="img-fluid" alt="Raghav profilepic"></div>
             <div class="member-info" data-eventtype="sport">
             <h4>Raghav Sriram</h4><span>Administrator - Business Management/Web Development</span>
@@ -108,11 +108,11 @@
         </div>
       </div>
   
-      <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+      <div class="col-lg-3 col-md-6 mt-5 mt-md-0" data-eventtype="sport">
         <div class="member" data-aos="zoom-in" data-aos-delay="200">
           <div class="pic"><img src="/assets/img/profilepic/ericzprofilepic.png" class="img-fluid" alt="Eric Z profilepic">
           </div>
-          <div class="member-info" data-eventtype="sport">
+          <div class="member-info" >
             <h4>Eric Zhu</h4><span>Administrator - Lead of Marketing</span>
             <div class="social">
               <a href=""><i class="fa fa-envelope"></i></a>
@@ -123,7 +123,7 @@
         </div>
       </div>
   
-      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0" data-eventtype="sport">
         <div class="member" data-aos="zoom-in" data-aos-delay="300">
           <div class="pic"><img src="/assets/img/profilepic/eamonprofilepic.png" class="img-fluid" alt="Eamon profile pic"></div>
             <div class="member-info" data-eventtype="sport">
@@ -137,7 +137,7 @@
           </div>
         </div>
   
-      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0" data-eventtype="sport">
         <div class="member" data-aos="zoom-in" data-aos-delay="400">
           <div class="pic"><img src="/assets/img/profilepic/maxwellprofilepic.png" class="img-fluid" alt="Maxwell profilepic"></div>
           <div class="member-info" data-eventtype="sport">
@@ -154,7 +154,7 @@
 
         
     <div class="row" data-aos="fade-left">
-      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0" data-eventtype="sport">
         <div class="member" data-aos="zoom-in" data-aos-delay="600">
           <div class="pic"><img src="/assets/img/profilepic/ericprofilepic.png" class="img-fluid" alt="Eric profile pic"></div>
           <div class="member-info" data-eventtype="sport">
@@ -168,7 +168,7 @@
         </div>
       </div>
   
-      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0" data-eventtype="sport">
         <div class="member" data-aos="zoom-in" data-aos-delay="700">
           <div class="pic"><img src="/assets/img/profilepic/avinashprofilepic.png" class="img-fluid" alt="Avinash profile pic"></div>
           <div class="member-info" data-eventtype="sport">
@@ -182,7 +182,7 @@
         </div>
       </div>
 
-      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0" data-eventtype="sport">
         <div class="member" data-aos="zoom-in" data-aos-delay="800">
           <div class="pic"><img src="/assets/img/profilepic/avinashprofilepic.png" class="img-fluid" alt="Stanley profile pic"></div>
             <div class="member-info" data-eventtype="sport">
@@ -196,10 +196,10 @@
           </div>
         </div>
 
-    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+    <div class="col-lg-3 col-md-6 mt-5 mt-lg-0" data-eventtype="sport">
       <div class="member" data-aos="zoom-in" data-aos-delay="900">
         <div class="pic"><img src="/assets/img/profilepic/avinashprofilepic.png" class="img-fluid" alt="Stanley profile pic"></div>
-          <div class="member-info" data-eventtype="sport">
+          <div class="member-info">
             <h4>Aaron Garner</h4><span></span>
             <div class="social">
               <a href=""><i class="fa fa-envelope"></i></a>
@@ -212,7 +212,7 @@
     </div> 
 
     <div class="row" data-aos="fade-left"></div>
-      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0" data-eventtype="sport">
         <div class="member" data-aos="zoom-in" data-aos-delay="1000">
           <div class="pic"><img src="/assets/img/profilepic/ericprofilepic.png" class="img-fluid" alt="Eric profile pic"></div>
           <div class="member-info" data-eventtype="sport">
@@ -226,7 +226,7 @@
         </div>
       </div>
   
-      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+      <div class="col-lg-3 col-md-6 mt-5 mt-lg-0" data-eventtype="sport">
         <div class="member" data-aos="zoom-in" data-aos-delay="1100">
           <div class="pic"><img src="/assets/img/profilepic/avinashprofilepic.png" class="img-fluid" alt="Avinash profile pic"></div>
           <div class="member-info">
