@@ -1833,6 +1833,35 @@ Courses--------------
   padding: 10px 12px;
 }
 
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 65px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button1 {
+  color: white; 
+  border: 2px solid#4a9cff;
+  background-color:#4a9cff;
+  font-weight: 900;
+}
+.button1:hover {
+  background-color: white;
+  color: #4a9cff;
+}
+
+.buttontext {
+  font-size: 18px;
+}
+
 .contact .php-email-form button[type="submit"] {
   background: #4a9cff;
   border: 0;
