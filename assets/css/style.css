@@ -230,8 +230,21 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 
+.active5:before {
+  content: "";
+  position: absolute;
+  width: 26.5%;
+  height: 2px;
+  bottom: 3px;
+  left: 25px;
+  background-color: #16dd97;
+}
 
-.nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
+.notextdecoration {
+  text-decoration: none !important;
+}
+
+.nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > c:before {
   visibility: visible;
   width: 25px;
 }
@@ -372,6 +385,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
   color: #16dd97;
+  text-decoration: none;
+}
+
+.notactive {
   text-decoration: none;
 }
 
@@ -537,6 +554,18 @@ body, html {
   width: 80%;
   padding: 20px;
   text-align: center;
+}
+
+.round {
+  border-radius: 50%;
+}
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+.next {
+  background-color: #4CAF50;
+  color: white;
 }
 
 /*--------------------------------------------------------------
