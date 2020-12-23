@@ -426,6 +426,119 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+.backnavigation {
+  background-color: rgba(97, 190, 252, 0.301);
+  height: 35px;
+}
+/* General */
+@general-spacer: 20px;
+@h1-size: 22px;
+
+/* Button Bar */
+@button-bar-width: 200px;
+@button-bar-bg-color: #ededed;
+
+/* Button */
+@button-bg-color: #0d5287;
+@button-bg-hover-color: #0585e8;
+@button-text-padding: 14px;
+@button-text-color: white;
+@button-height: 22px;
+@button-text-size: 14px;
+* Layout */
+/* ------ */
+h1.welcome, .button-bar {
+  margin: @general-spacer auto;
+  height: auto; 
+}
+
+.button-bar {
+  background: @button-bar-bg-color;
+  padding: @general-spacer * 2;
+}
+
+/* General Button */
+/* -------------- */
+.button5 {
+  position: relative;
+  margin: 0;
+  padding-left: @button-text-padding;
+  padding-right: @button-text-padding;
+  padding-top: (@button-text-padding / 5);
+  padding-bottom: (@button-text-padding / 5);
+  background: @button-bg-color;
+  color: @button-text-color;
+  font-size: @button-text-size;
+}
+
+.button5::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+}
+
+.button5:hover { background: @button-bg-hover-color; }
+
+/* Arrow Buttons */
+/* ------------- */
+.next::after, .prev::after { border-style: solid; }
+
+/* Prev Button */
+/* ----------- */
+.prev::after {
+  left: -@button-height;
+  border-color: transparent @button-bg-color transparent transparent;
+  border-width: @button-height / 2;
+}
+
+.prev:hover::after {
+  border-right-color: @button-bg-hover-color;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*--------------------------------------------------------------
+# BG Section
+--------------------------------------------------------------*/
+
+.bg-image {
+  padding: 180px 0;
+  background: url("https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg") no-repeat;
+  height: 45%;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-image::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background:  #3366cccb;
+}
+
+.bg-text {
+  color: white;
+  font-weight: 900;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
