@@ -1642,8 +1642,8 @@ Courses--------------
 .team .member .pic {
   border-radius: 4px;
   overflow: hidden;
-  min-height: 270px;
-  max-height:  270px;
+  min-height: 375px;
+  max-height:  375px;
 }
 
 .team .member img {
