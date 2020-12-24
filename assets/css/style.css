@@ -56,7 +56,6 @@ h1, h2, h3, h4, h5, h6 {
 
 */
 p {
-  color: rgb(126, 126, 126);
   letter-spacing: 0.01px;
 }
 /*--------------------------------------------------------------
@@ -2263,6 +2262,7 @@ Courses--------------
     width: 35%;
     height: 1px;
     bottom: 0;
+    top: 2;
     border-bottom: 2px solid#1acc8d;
   }
 .footer-link-wrapper {
