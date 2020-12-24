@@ -1817,17 +1817,11 @@ Courses--------------
   position: relative;
   text-shadow: 500px;
 }
-/*for team.html*/
+/*specifically for courses.html*/
 .team .member .pic {
   border-radius: 4px;
   overflow: hidden;
-  max-height:  375px;
-}
-/*specifically for courses.html*/
-.team .member .pic1 {
-  border-radius: 4px;
-  overflow: hidden;
-  max-height:  375px;
+  max-height:  px;
   min-height: 375px;
 }
 .team .member img {
