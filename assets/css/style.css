@@ -1824,6 +1824,7 @@ Courses--------------
   overflow: hidden;
   max-height:  px;
   min-height: 350px;
+  width: 100%;
 }
 .team .member img {
   transition: all ease-in-out 0.4s;
