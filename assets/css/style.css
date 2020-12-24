@@ -149,167 +149,6 @@ p {
     transition-delay: 0 !important;
   }
 }
-/*//////////////////////////////////////////////////////////////////
-[ Table ]*/
-
-.limiter1 {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.container1-table100 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 33px 30px;
-}
-
-.wrap-table100 {
-  width: 960px;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.table1 {
-  width: 100%;
-  display: table;
-  margin: 0;
-}
-
-@media screen and (max-width: 768px) {
-  .table1 {
-    display: block;
-  }
-}
-
-.row1 {
-  display: table-row;
-  background: #fff;
-}
-
-.row1.header {
-  color: #ffffff;
-  background: #6c7ae0;
-}
-
-@media screen and (max-width: 768px) {
-  .row1 {
-    display: block;
-  }
-
-  .row1.header {
-    padding: 0;
-    height: 0px;
-  }
-
-  .row1.header .cell {
-    display: none;
-  }
-
-  .row1 .cell:before {
-    font-family: Poppins-Bold;
-    font-size: 12px;
-    color: #808080;
-    line-height: 1.2;
-    text-transform: uppercase;
-    font-weight: unset !important;
-
-    margin-bottom: 13px;
-    content: attr(data-title);
-    min-width: 98px;
-    display: block;
-  }
-}
-
-.cell {
-  display: table-cell;
-}
-
-@media screen and (max-width: 768px) {
-  .cell {
-    display: block;
-  }
-}
-
-.row1 .cell {
-  font-family: Poppins-Regular;
-  font-size: 15px;
-  color: #666666;
-  line-height: 1.2;
-  font-weight: unset !important;
-
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #f2f2f2;
-}
-
-.row1.header .cell {
-  font-family: Poppins-Regular;
-  font-size: 18px;
-  color: #fff;
-  line-height: 1.2;
-  font-weight: unset !important;
-
-  padding-top: 19px;
-  padding-bottom: 19px;
-}
-
-.row1 .cell:nth-child(1) {
-  width: 360px;
-  padding-left: 40px;
-}
-
-.row1 .cell:nth-child(2) {
-  width: 160px;
-}
-
-.row1 .cell:nth-child(3) {
-  width: 250px;
-}
-
-.row1 .cell:nth-child(4) {
-  width: 190px;
-}
-
-
-.table1, .row1 {
-  width: 100% !important;
-}
-@media (max-width: 768px) {
-  .row1 {
-    border-bottom: 1px solid #f2f2f2;
-    padding-bottom: 18px;
-    padding-top: 30px;
-    padding-right: 15px;
-    margin: 0;
-  }
-  
-  .row1 .cell {
-    border: none;
-    padding-left: 30px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
-  .row1 .cell:nth-child(1) {
-    padding-left: 30px;
-  }
-  
-  .row1 .cell {
-    font-size: 18px;
-    color: #555555;
-    line-height: 1.2;
-    font-weight: unset !important;
-  }
-
-  .table1, .row1, .cell {
-    width: 100% !important;
-  }
-}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -632,7 +471,7 @@ p {
 
 .backnavigation {
   background-color: rgba(97, 190, 252, 0.164);
-  height: 35px;
+  height: 45px;
 }
 .backelement {
   font-size: 16px;
@@ -723,7 +562,187 @@ body, html {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+/*//////////////////////////////////////////////////////////////////
+[ Table ]*/
 
+.courseinfo {
+  border-radius: 50px;
+  overflow: hidden;
+  
+}
+
+.coursehelp {
+  border-radius: 50px;
+  border-style: solid;
+  border: 2px solid #7ceec6;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+  
+}
+
+.limiter1 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container1-table100 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 33px 30px;
+}
+
+.wrap-table100 {
+  width: 960px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table1 {
+  width: 100%;
+  display: table;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .table1 {
+    display: block;
+  }
+}
+
+.row1 {
+  display: table-row;
+  background: #fff;
+}
+
+.row1.header {
+  color: #ffffff;
+  background:  #4a9cff;
+}
+
+@media screen and (max-width: 768px) {
+  .row1 {
+    display: block;
+  }
+
+  .row1.header {
+    padding: 0;
+    height: 0px;
+  }
+
+  .row1.header .cell {
+    display: none;
+  }
+
+  .row1 .cell:before {
+    font-size: 25px;
+    color: #808080;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: 500 !important;
+
+    margin-bottom: 13px;
+    content: attr(data-title);
+    min-width: 98px;
+    display: block;
+  }
+}
+
+.cell {
+  display: table-cell;
+}
+
+@media screen and (max-width: 768px) {
+  .cell {
+    display: block;
+  }
+}
+
+.row1 .cell {
+  font-size: 17px;
+  color: #666666;
+  line-height: 1.2;
+  font-weight: 500 !important;
+
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.row1.header .cell {
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: unset !important;
+
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.row1 .cell:nth-child(1) {
+  width: 16.66666777%;
+  padding-left: 40px;
+}
+
+.row1 .cell:nth-child(2) {
+  width: 18.333333333%;
+}
+
+.row1 .cell:nth-child(3) {
+  width: 15%;
+}
+
+.row1 .cell:nth-child(4) {
+  width: 16.66666777%;
+}
+.row1 .cell:nth-child(5) {
+  width: 16.66666777%;
+}
+.row1 .cell:nth-child(6) {
+  width: 16.66666777%;
+}
+
+.table1, .row1 {
+  width: 100% !important;
+}
+@media (max-width: 768px) {
+  .row1 {
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 18px;
+    padding-top: 30px;
+    padding-right: 15px;
+    margin: 0;
+  }
+  
+  .row1 .cell {
+    border: none;
+    padding-left: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .row1 .cell:nth-child(1) {
+    padding-left: 30px;
+  }
+  
+  .row1 .cell {
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.2;
+    font-weight: unset !important;
+  }
+
+  .table1, .row1, .cell {
+    width: 100% !important;
+  }
+}
 /*--------------------------------------------------------------
 # BG Section
 --------------------------------------------------------------*/
@@ -1808,8 +1827,8 @@ Courses--------------
 .team .member .pic1 {
   border-radius: 4px;
   overflow: hidden;
-  max-height:  400px;
-  min-height:px;
+  max-height:  375px;
+  min-height: 375px;
 }
 .team .member img {
   transition: all ease-in-out 0.4s;
@@ -2239,6 +2258,22 @@ Courses--------------
 .button1:hover {
   background-color: white;
   color: #4a9cff;
+}
+
+.button2 {
+  background-color: #4a9cff; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid#4a9cff;
 }
 
 .buttontext {
