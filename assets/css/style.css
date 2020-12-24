@@ -32,7 +32,11 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid var(--scrollbarBG);
 }
  
-
+/*Disabel horizontal scroll bar */
+div.disabled {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
  
 /* Change Selection Text Color When Highlighting */ 
 ::-moz-selection { background-color: #16dd97;
@@ -49,7 +53,12 @@ blue color: #4a9cff;
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
 }
+
 */
+p {
+  color: rgb(126, 126, 126);
+  letter-spacing: 0.01px;
+}
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -126,6 +135,12 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+@media(max-width: 850px){
+  .back-to-top{
+    display: none;
+  }
+}
+
 
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
@@ -187,6 +202,19 @@ h1, h2, h3, h4, h5, h6 {
   }
   #header .logo h1 {
     font-size: 28px;
+  }
+}
+
+.herotext{
+  font-size: 55px;
+}
+
+@media (max-width: 100px){
+  .herotext{
+    font-size: 35px !important;
+  }
+  .herotext2{
+    font-size: 25px !important;
   }
 }
 
@@ -444,8 +472,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .backnavigation {
-  background-color: rgba(97, 190, 252, 0.301);
+  background-color: rgba(97, 190, 252, 0.164);
   height: 35px;
+}
+.backelement {
+  font-size: 16px;
+  color: #3366cc;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+}
+.backelement2 {
+  font-size: 16px;
+  color: #797979d3;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+  text-decoration: none;
+}
+.backicon {
+  font-size: 16px;
+  color: #3366cc;
 }
 /* General */
 @general-spacer: 20px;
@@ -1592,11 +1637,13 @@ Courses--------------
   text-align: center;
   margin-bottom: 80px;
   position: relative;
+  text-shadow: 500px;
 }
 
 .team .member .pic {
   border-radius: 4px;
   overflow: hidden;
+  max-height:  270px;
 }
 
 .team .member img {
