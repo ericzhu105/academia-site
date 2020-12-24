@@ -1642,6 +1642,7 @@ Courses--------------
 .team .member .pic {
   border-radius: 4px;
   overflow: hidden;
+  min-height: 270px;
   max-height:  270px;
 }
 
@@ -1658,7 +1659,7 @@ Courses--------------
   bottom: -80px;
   left: 0px;
   right: 0px;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.952);
   padding: 15px 0;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
