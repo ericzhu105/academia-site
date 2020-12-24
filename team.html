@@ -108,6 +108,21 @@
           </div>
         </div>
 
+        <div class="organizer" data-eventtype="webdev">
+          <div class="profileclass">
+            <div class="member" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pic"><img src="assets/img/profilepic/raghavprofilepic.png" class="img-fluid" alt="Raghav profilepic"></div>
+              <div class="member-info">
+                <h4>Raghav Sriram</h4><span>Teacher</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-envelope"></i></a>
+                  <a href=""><i class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="organizer" data-eventtype="admin">
           <div class="profileclass" >
           <div class="member" data-aos="zoom-in" data-aos-delay="200">
@@ -334,7 +349,8 @@ $( ".event-type-select" ).change(function() {
   var selectedEventType = this.options[this.selectedIndex].value;
   if (selectedEventType == "all") {
     $('.teamgrid .organizer').removeClass('hidden');
-  } else {
+  } 
+  else {
     $('.teamgrid .organizer').addClass('hidden');
     $('.teamgrid .organizer[data-eventtype="' + selectedEventType + '"]').removeClass('hidden');
   }
