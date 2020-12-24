@@ -1648,8 +1648,8 @@ Courses--------------
 .team .member .pic1 {
   border-radius: 4px;
   overflow: hidden;
-  max-height:  375px;
-  min-height:375px;
+  max-height:  400px;
+  min-height:px;
 }
 .team .member img {
   transition: all ease-in-out 0.4s;
@@ -1725,12 +1725,16 @@ Courses--------------
 }
 
 .profileclass {
-  width:200px;
+  width:100%;
   margin:auto;
+  padding: 1%, 1%, 1%, 1%;
 }
 .organizer {
   width:33.33333333333333333333333%;
   margin-bottom:10px;
+  padding-right: 2% !important;
+  margin-bottom: 2% !important;
+  margin-top: 2% !important;
 }
 @media (min-width: 1200px) {
   .organizer {
@@ -1739,7 +1743,7 @@ Courses--------------
 }
 @media (max-width: 768px) {
   .organizer {
-    width:50%;
+    width:100%;
   }
 }
 /*--------------------------------------------------------------
