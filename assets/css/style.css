@@ -1638,14 +1638,19 @@ Courses--------------
   position: relative;
   text-shadow: 500px;
 }
-
+/*for team.html*/
 .team .member .pic {
   border-radius: 4px;
   overflow: hidden;
-  min-height: 375px;
   max-height:  375px;
 }
-
+/*specifically for courses.html*/
+.team .member .pic1 {
+  border-radius: 4px;
+  overflow: hidden;
+  max-height:  375px;
+  min-height:375px;
+}
 .team .member img {
   transition: all ease-in-out 0.4s;
 }
