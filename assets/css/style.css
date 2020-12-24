@@ -1711,6 +1711,32 @@ Courses--------------
   margin: 0 2px;
 }
 
+.hidden {
+  display: none;
+}
+.teamgrid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profileclass {
+  width:200px;
+  margin:auto;
+}
+.organizer {
+  width:33.33333333333333333333333%;
+  margin-bottom:10px;
+}
+@media (min-width: 1200px) {
+  .organizer {
+    width:25%;
+  }
+}
+@media (max-width: 768px) {
+  .organizer {
+    width:50%;
+  }
+}
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
