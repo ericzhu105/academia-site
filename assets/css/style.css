@@ -1822,9 +1822,8 @@ Courses--------------
 .team .member .pic {
   border-radius: 4px;
   overflow: hidden;
-  max-height:  px;
+  max-height:  350px;
   min-height: 350px;
-  width: 100%;
 }
 .team .member img {
   transition: all ease-in-out 0.4s;
