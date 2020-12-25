@@ -392,6 +392,7 @@ p {
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
+  font-size:30px;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
@@ -428,7 +429,7 @@ p {
   padding-left: 20px;
 }
 
-.mobile-nav-overly {
+.mobile-nav-overly /*background for mobile nav */{
   width: 100%;
   height: 100%;
   z-index: 9997;
