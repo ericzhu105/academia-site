@@ -2301,22 +2301,6 @@ Courses--------------
   color: #4a9cff;
 }
 
-.button2 {
-  background-color: #4a9cff; /* Green */
-  border: none;
-  color: white;
-  padding: 10px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 6px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  border-radius: 5px;
-  border: 2px solid#4a9cff;
-}
-
 .buttontext {
   font-size: 18px;
 }
