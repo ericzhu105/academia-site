@@ -2331,6 +2331,21 @@ Courses--------------
   background-color: white;
   color: #4a9cff;
 }
+.coursebutton {
+  color: white; 
+  border: 2px solid#4a9cff;
+  border-radius: 8px;
+  background-color:#4a9cff;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 800;
+}
+.coursebutton:hover {
+  background-color: white;
+  color: #4a9cff;
+}
 
 .buttontext {
   font-size: 18px;
