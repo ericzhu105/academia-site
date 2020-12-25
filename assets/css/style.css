@@ -347,6 +347,9 @@ p {
 .navflex {
   display:none;
 }
+.oppnavflex {
+  display:block;
+}
 @media (min-width: 770px) {
   .navflex {
     display: block;
@@ -354,7 +357,11 @@ p {
   .threebars {
     display: none !important;
   }
+  .oppnavflex {
+    display:none;
+  }
 }
+
 
 .mobile-nav-toggle {
   position: fixed;
@@ -379,7 +386,6 @@ p {
   position: fixed;
   top: 55px;
   right: 15px;
-  bottom: 15px;
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
@@ -389,6 +395,7 @@ p {
   visibility: hidden;
   border-radius: 10px;
   padding: 10px 0;
+  height:300px;
 }
 
 .mobile-nav * {
@@ -405,6 +412,17 @@ p {
   font-weight: 500;
   outline: none;
   font-size:30px;
+}
+.mobile-nav a img {
+  display: block;
+  position: static;
+  color: #2063A5;
+  margin-top:-270px;
+  margin-left:50%;
+  height:auto;
+  width:50%;
+  max-width:280px;
+  outline: none;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
