@@ -1823,7 +1823,6 @@ Courses--------------
   border-radius: 4px;
   overflow: hidden;
   max-height:  350px;
-  min-height: 350px;
 }
 .team .member img {
   transition: all ease-in-out 0.4s;
