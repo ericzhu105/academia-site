@@ -1795,7 +1795,7 @@ Courses--------------
 }
 
 /*--------------------------------------------------------------
-# Team
+# Team/courses
 --------------------------------------------------------------*/
 .team {
   background: #fff;
@@ -1807,13 +1807,33 @@ Courses--------------
   position: relative;
   text-shadow: 500px;
 }
+.coursegrid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.coursegriditem {
+  margin-bottom:10px;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  padding-left:2%;
+}
+@media (min-width:1000px) {
+  .coursegriditem {
+    width:33.33333%
+  }
+}
+@media (min-width:600px) {
+  .coursegriditem {
+    width:50%;
+  }
+}
 
-/*specifically for courses.html*/
 .team .member .pic {
   border-radius: 4px;
   overflow: hidden;
   max-height:  350px;
 }
+
 .team .member img {
   transition: all ease-in-out 0.4s;
 }
@@ -1895,9 +1915,9 @@ Courses--------------
 .organizer {
   width:33.33333333333333333333333%;
   margin-bottom:10px;
-  padding-right: 2%;
   margin-bottom: 2%;
   margin-top: 2%;
+  padding-left:2%;
   display:none;
 }
 #myBtnContainer {
