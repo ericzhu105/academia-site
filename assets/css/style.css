@@ -392,7 +392,7 @@ p {
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
-  font-size:30px;
+  font-size:25px;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
