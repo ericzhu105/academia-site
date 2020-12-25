@@ -57,10 +57,10 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="courses.html">Courses</a></li>
          <!-- <li><a href="#gallery">Gallery</a></li> -->
-          <li class="active5"><a href="team.html">Team</a></li>
+          <li class="active"><a href="team.html">Team</a></li>
           <li><a href="#team">Join Us</a></li>
 
         </ul>
@@ -80,8 +80,8 @@
         <p>Our Great Team</p>
       </div>
 
-      <form>
-        <select class="event-type-select">
+      <!--<form>
+        <select id>
           <option value="all">The Entire Team</option>
           <option value="admin">Administrators</option>
           <option value="scratch">Scratch</option>
@@ -89,11 +89,19 @@
           <option value="python">Python</option>
           <option value="cplus">C#</option>
         </select>
-      </form>
+      </form>-->
+      <div id="myBtnContainer">
+        <button class="profilebutton activebutton" onclick="filterSelection('all')">The Entire Team</button>
+        <button class="profilebutton" onclick="filterSelection('admin')"> Adminstrators</button>
+        <button class="profilebutton" onclick="filterSelection('scratch')"> Scratch</button>
+        <button class="profilebutton" onclick="filterSelection('webdev')"> Web Development</button>
+        <button class="profilebutton" onclick="filterSelection('python')"> Python</button>
+        <button class="profilebutton" onclick="filterSelection('cplus')"> C#</button>
+      </div>
 
       <div class="teamgrid">
 
-        <div class="organizer" data-eventtype="admin">
+        <div class="organizer admin">
           <div class="profileclass" >
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
               <div class="pic"><img src="assets/img/profilepic/raghavprofilepic.png" class="img-fluid" alt="Raghav profilepic"></div>
@@ -108,7 +116,7 @@
           </div>
         </div>
 
-        <div class="organizer" data-eventtype="admin">
+        <div class="organizer admin">
           <div class="profileclass" >
           <div class="member" data-aos="zoom-in" data-aos-delay="200">
             <div class="pic"><img src="assets/img/profilepic/ericzprofilepic.png" class="img-fluid" alt="Eric Z profilepic">
@@ -124,7 +132,7 @@
         </div>
       </div>
   
-     <div class="organizer" data-eventtype="scratch">
+     <div class="organizer scratch admin">
         <div class="profileclass" >
           <div class="member" data-aos="zoom-in" data-aos-delay="300">
             <div class="pic"><img src="assets/img/profilepic/eamonprofilepic.png" class="img-fluid" alt="Eamon profile pic"></div>
@@ -139,7 +147,7 @@
         </div>
       </div>
 
-   <div class="organizer" data-eventtype="admin">
+   <div class="organizer admin webdev">
         <div class="profileclass" >
           <div class="member" data-aos="zoom-in" data-aos-delay="400">
             <div class="pic"><img src="assets/img/profilepic/maxwellprofilepic.png" class="img-fluid" alt="Maxwell profilepic"></div>
@@ -154,7 +162,7 @@
         </div>
 </div>
 
-   <div class="organizer" data-eventtype="scratch">
+   <div class="organizer admin scratch">
         <div class="profileclass" >
           <div class="member" data-aos="zoom-in" data-aos-delay="500">
             <div class="pic"><img src="assets/img/profilepic/ericprofilepic.png" class="img-fluid" alt="Eric profile pic"></div>
@@ -169,7 +177,7 @@
         </div>
       </div>
   
-     <div class="organizer" data-eventtype="admin">
+     <div class="organizer admin">
         <div class="profileclass" >
           <div class="member" data-aos="zoom-in" data-aos-delay="600">
             <div class="pic"><img src="assets/img/profilepic/avinashprofilepic.png" class="img-fluid" alt="Avinash profile pic"></div>
@@ -184,7 +192,7 @@
         </div>
       </div>
 
-   <div class="organizer" data-eventtype="python">
+   <div class="organizer python">
         <div class="profileclass" >
           <div class="member" data-aos="zoom-in" data-aos-delay="700">
             <div class="pic"><img src="assets/img/profilepic/stanleyprofilepic.png" class="img-fluid" alt="Stanley profile pic"></div>
@@ -199,7 +207,7 @@
         </div>
       </div>
 
-   <div class="organizer" data-eventtype="cplus">
+   <div class="organizer cplus">
         <div class="profileclass" >
           <div class="member" data-aos="zoom-in" data-aos-delay="800">
             <div class="pic"><img src="assets/img/profilepic/aaronprofilepic.png" class="img-fluid" alt="Aaron profile pic"></div>
@@ -214,7 +222,7 @@
         </div>
       </div>
 
-   <div class="organizer" data-eventtype="python">
+   <div class="organizer python">
         <div class="profileclass" >
           <div class="member" data-aos="zoom-in" data-aos-delay="900">
             <div class="pic"><img src="assets/img/profilepic/ericprofilepic.png" class="img-fluid" alt="Eric profile pic"></div>
@@ -229,12 +237,27 @@
         </div>
       </div>
 
-   <div class="organizer" data-eventtype="python">
+   <div class="organizer python">
         <div class="profileclass">
           <div class="member" data-aos="zoom-in" data-aos-delay="1000">
             <div class="pic"><img src="assets/img/profilepic/janprofilepic.png" class="img-fluid" alt="Jan profile pic"></div>
             <div class="member-info">
               <h4>Jan Pilař</h4><span>Teacher</span>
+              <div class="social">
+                <a href=""><i class="fa fa-envelope"></i></a>
+                <a href=""><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="organizer python">
+        <div class="profileclass">
+          <div class="member" data-aos="zoom-in" data-aos-delay="1000">
+            <div class="pic"><img src="assets/img/profilepic/janprofilepic.png" class="img-fluid" alt="jacoby profile pic"></div>
+            <div class="member-info">
+              <h4>Jacoby Yliemieni</h4><span>Teacher</span>
               <div class="social">
                 <a href=""><i class="fa fa-envelope"></i></a>
                 <a href=""><i class="fa fa-github"></i></a>
@@ -394,16 +417,48 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 <script>
-$( ".event-type-select" ).change(function() {
-  var selectedEventType = this.options[this.selectedIndex].value;
-  if (selectedEventType == "all") {
-    $('.teamgrid .organizer').removeClass('hidden');
-  } 
-  else {
-    $('.teamgrid .organizer').addClass('hidden');
-    $('.teamgrid .organizer[data-eventtype="' + selectedEventType + '"]').removeClass('hidden');
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("organizer");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "buttonappear");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "buttonappear");
   }
-});
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("profilebutton");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("activebutton");
+    current[0].className = current[0].className.replace(" activebutton", "");
+    this.className += " activebutton";
+  });
+}
 </script>
 </body>
 

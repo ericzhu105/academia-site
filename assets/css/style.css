@@ -256,16 +256,6 @@ p {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.active5:before {
-  content: "";
-  position: absolute;
-  width: 26.5%;
-  height: 2px;
-  bottom: 3px;
-  left: 25px;
-  background-color: #16dd97;
-}
-
 .notextdecoration {
   text-decoration: none !important;
 }
@@ -1905,9 +1895,16 @@ Courses--------------
 .organizer {
   width:33.33333333333333333333333%;
   margin-bottom:10px;
-  padding-right: 2% !important;
-  margin-bottom: 2% !important;
-  margin-top: 2% !important;
+  padding-right: 2%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  display:none;
+}
+.profilebutton.activebutton {
+  background-color:red;
+}
+.buttonappear {
+  display:block;
 }
 @media (min-width: 1200px) {
   .organizer {
@@ -1915,6 +1912,11 @@ Courses--------------
   }
 }
 @media (max-width: 768px) {
+  .organizer {
+    width:50%;
+  }
+}
+@media (max-width: 576px) {
   .organizer {
     width:100%;
   }
