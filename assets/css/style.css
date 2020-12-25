@@ -34,8 +34,8 @@ body::-webkit-scrollbar-thumb {
  
 /*Disabel horizontal scroll bar */
 div.disabled {
-  overflow-x: scroll;
-  overflow-y: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
  
 /* Change Selection Text Color When Highlighting */ 
@@ -548,9 +548,10 @@ h1.welcome, .button-bar {
 }
 
 body, html {
-  height: 100%;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 /*//////////////////////////////////////////////////////////////////
 [ Table ]*/
