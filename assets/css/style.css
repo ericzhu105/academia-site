@@ -34,7 +34,6 @@ body::-webkit-scrollbar-thumb {
  
 /*Disabel horizontal scroll bar */
 div.disabled {
-  overflow-x: hidden;
   overflow-y: scroll;
 }
  
@@ -551,7 +550,7 @@ body, html {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   max-width: 100%;
-  overflow-x: hidden;
+
 }
 /*//////////////////////////////////////////////////////////////////
 [ Table ]*/
