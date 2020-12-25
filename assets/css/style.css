@@ -344,6 +344,18 @@ p {
 }
 
 /* Mobile Navigation */
+.navflex {
+  display:none;
+}
+@media (min-width: 770px) {
+  .navflex {
+    display: block;
+  }
+  .threebars {
+    display: none !important;
+  }
+}
+
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;

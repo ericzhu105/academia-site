@@ -1268,7 +1268,7 @@ html {
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 992px) {
   .d-lg-none {
     display: none !important;
   }
