@@ -32,12 +32,6 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid var(--scrollbarBG);
 }
  
-/*Disabel horizontal scroll bar */
-div.disabled {
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
- 
 /* Change Selection Text Color When Highlighting */ 
 ::-moz-selection { background-color: #16dd97;
 color: #fff; } 
@@ -633,11 +627,11 @@ body, html {
   }
 
   .row1 .cell:before {
-    font-size: 25px;
+    font-size: 12px;
     color: #808080;
     line-height: 1.2;
     text-transform: uppercase;
-    font-weight: 500 !important;
+    font-weight: 700!important;
 
     margin-bottom: 13px;
     content: attr(data-title);
