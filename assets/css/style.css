@@ -476,6 +476,12 @@ p {
   font-size: 16px;
   color: #3366cc;
 }
+
+@media (max-width: 600px){
+  .back-to-top{
+    display: none;
+  }
+}
 /* General */
 @general-spacer: 20px;
 @h1-size: 22px;
