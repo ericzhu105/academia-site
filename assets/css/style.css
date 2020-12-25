@@ -124,13 +124,11 @@ p {
   transition: all 0.4s;
 }
 
-.back-to-top i:hover {
-  background: #4285F4;
-  color: #fff;
-}
-
-@media(max-width: 850px){
-  .back-to-top{
+@media screen and  (max-width: 800px){
+  .icofont-simple-up{
+    display: none;
+  }
+  .back-to-top i {
     display: none;
   }
 }
@@ -477,11 +475,6 @@ p {
   color: #3366cc;
 }
 
-@media (max-width: 600px){
-  .back-to-top{
-    display: none;
-  }
-}
 /* General */
 @general-spacer: 20px;
 @h1-size: 22px;
