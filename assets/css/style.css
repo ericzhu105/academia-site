@@ -1900,8 +1900,56 @@ Courses--------------
   margin-top: 2%;
   display:none;
 }
+#myBtnContainer {
+  position:relative;
+  display:inline-block;
+  width:300px;
+  text-align:center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding:10px 30px;
+  transition: 0.5s;
+  color: #fff;
+  background: #16dd97;
+}
+
+.profilebutton {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  transition: 0.5s;
+  color: black;
+  background: white;
+  border-width: 0px;
+}
+.profilebutton:hover {
+  color:#16dd97;
+}
+.dropdownfilter {
+  display:none;
+  position:absolute;
+  z-index:1;
+  margin-left:-30px;
+  margin-top:10px;
+}
+.dropdownfilter .profilebutton {
+  display:block;
+  width:300px;
+}
+#myBtnContainer:hover .dropdownfilter {
+  display:block;
+}
+#myBtnContainer:hover {
+  background: #06f09e;
+  text-decoration:none;
+}
 .profilebutton.activebutton {
-  background-color:red;
+  color:#16dd97;
 }
 .buttonappear {
   display:block;
