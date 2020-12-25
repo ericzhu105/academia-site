@@ -11,7 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  max-width: 100%;
+  overflow-x: hidden;
 }
 
 
@@ -36,7 +36,6 @@ body::-webkit-scrollbar-thumb {
 /*Disabel horizontal scroll bar */
 div.disabled {
   overflow-y: scroll;
-  overflow-x: hidden;
 }
  
 /* Change Selection Text Color When Highlighting */ 
