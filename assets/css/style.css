@@ -34,8 +34,8 @@ body::-webkit-scrollbar-thumb {
  
 /*Disabel horizontal scroll bar */
 div.disabled {
-  overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
  
 /* Change Selection Text Color When Highlighting */ 
