@@ -1,7 +1,7 @@
 /**
 * Template Name: Bootslander - v2.2.0
 * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
-* Author: BootstrapMade.com
+* Author of template: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
 
@@ -1941,6 +1941,7 @@ Courses--------------
   transition: 0.5s;
   color: #fff;
   background: #16dd97;
+  z-index:500;
 }
 
 .profilebutton {
@@ -1952,8 +1953,10 @@ Courses--------------
   padding: 10px 30px;
   transition: 0.5s;
   color: black;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.98);
   border-width: 0px;
+  text-align:center;
+  width:300px;
 }
 .profilebutton:hover {
   color:#16dd97;
@@ -1961,14 +1964,8 @@ Courses--------------
 .dropdownfilter {
   display:none;
   position:absolute;
-  z-index:1;
+  margin-top:10px;/*margins are from the padding of myBtnContianer*/
   margin-left:-30px;
-  margin-top:2px;
-  width:
-}
-.dropdownfilter .profilebutton {
-  display:block;
-  width:556px;
 }
 #myBtnContainer:hover .dropdownfilter {
   display:block;
@@ -1987,18 +1984,24 @@ Courses--------------
   .organizer {
     width:25%;
   }
+  #myBtnContainer {
+    display: block;
+  }
 }
 @media (max-width: 768px) {
   .organizer {
     width:50%;
   }
   #myBtnContainer {
-    display: none;
+    display: block;
   }
 }
 @media (max-width: 576px) {
   .organizer {
     width:100%;
+  }
+  #myBtnContainer {
+    display: block;
   }
 }
 /*--------------------------------------------------------------
