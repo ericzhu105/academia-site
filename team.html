@@ -75,7 +75,7 @@
   <section id="team" class="team">
     <div class="container">
 
-      <div class="section-title" style="margin-top:50px;"data-aos="fade-up">
+      <div class="section-title" style="margin-top:50px; padding-bottom: 20px"data-aos="fade-up">
         <h2>Team</h2>
         <p>Our Great Team</p>
       </div>
@@ -91,17 +91,21 @@
         </select>
       </form>-->
       <div id="myBtnContainer">
+        <span>Who We Are Dropdown</span>
+        <div class="dropdownfilter">
         <button class="profilebutton activebutton" onclick="filterSelection('all')">The Entire Team</button>
         <button class="profilebutton" onclick="filterSelection('admin')"> Adminstrators</button>
         <button class="profilebutton" onclick="filterSelection('scratch')"> Scratch</button>
         <button class="profilebutton" onclick="filterSelection('webdev')"> Web Development</button>
         <button class="profilebutton" onclick="filterSelection('python')"> Python</button>
         <button class="profilebutton" onclick="filterSelection('cplus')"> C#</button>
+        <button class="profilebutton" onclick="filterSelection('rust')"> Rust</button>
+      </div>
       </div>
 
       <div class="teamgrid">
 
-        <div class="organizer admin">
+        <div class="organizer admin webdev">
           <div class="profileclass" >
             <div class="member" data-aos="zoom-in" data-aos-delay="100">
               <div class="pic"><img src="assets/img/profilepic/raghavprofilepic.png" class="img-fluid" alt="Raghav profilepic"></div>
@@ -132,7 +136,7 @@
         </div>
       </div>
   
-     <div class="organizer scratch admin">
+     <div class="organizer scratch python webdev admin">
         <div class="profileclass" >
           <div class="member" data-aos="zoom-in"  data-aos-delay="100">
             <div class="pic"><img src="assets/img/profilepic/eamonprofilepic.png" class="img-fluid" alt="Eamon profile pic"></div>
@@ -162,7 +166,7 @@
         </div>
 </div>
 
-   <div class="organizer admin scratch">
+   <div class="organizer admin python scratch">
         <div class="profileclass" >
           <div class="member" data-aos="zoom-in"  data-aos-delay="100">
             <div class="pic"><img src="assets/img/profilepic/ericprofilepic.png" class="img-fluid" alt="Eric profile pic"></div>
@@ -252,7 +256,7 @@
         </div>
       </div>
 
-      <div class="organizer python">
+      <div class="organizer rust">
         <div class="profileclass">
           <div class="member" data-aos="zoom-in">
             <div class="pic"><img src="assets/img/profilepic/jacobyprofilepic.png" class="img-fluid" alt="jacoby profile pic"></div>
