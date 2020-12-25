@@ -2088,15 +2088,6 @@ Courses--------------
   display: none;
 }
 
-.faq .faq-list a.collapsed {
-  color: #343a40;
-  transition: 1s;
-}
-
-.faq .faq-list a.collapsed:hover {
-  color: rgb(22, 221, 151);
-}
-
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
 }
@@ -2104,7 +2095,13 @@ Courses--------------
 .faq .faq-list a.collapsed .icon-close {
   display: none;
 }
-
+.faq .faq-list a.collapsed {
+  color: #343a40;
+  transition: 0.5s;
+}
+.faq .faq-list a.collapsed:hover {
+  color: rgb(22, 221, 151)!important;
+}
 @media (max-width: 1200px) {
   .faq .faq-list {
     padding: 0;
