@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<style>
+.hidden {
+  display: none;
+}
+
+</style>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>AcademiaEdge</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google FontS -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/8897599.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo mr-auto">
+        <!--<a href="index.html"><img src="assets/img/hero-img.png" style="height:50px;width:50px;display:inline-block;"alt="" class="img-fluid"></a>-->
+        <h1 class="text-light" style="display:inline-block"><a href="index.html"><span class="logotext">AcademiaEdge</span></a></h1>
+        
+      </div>
+
+      <nav class="nav-menu navflex">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+         <!-- <li><a href="#gallery">Gallery</a></li> -->
+          <li><a href="team.html">Team</a></li>
+          <li class="active"><a href="joinus.html">Join Us</a></li>
+         <!--   <li><a href="#pricing">Donations</a></li> -->
+         <!--/Users/nitrostrider/Desktop/Nitrostrider/acedemia-site/assets/js/main.js:-->
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <div class="bg-image2">
+    <div class="bg-text">
+        <h1 style="font-size:75px; font-weight: 900;">Join Us!</h1>
+    </div>
+  </div>
+
+  <!-- ======= Team Section ======= -->
+  <!-- all images need to be 400px by 474px-->
+  <section id="team" class="team">
+    <div class="container">
+
+      <div class="section-title" style=" padding-bottom: 20px"data-aos="fade-up">
+        <h2>Team</h2>
+        <p>Who We Are</p>
+      </div>
+
+        <div id="myBtnContainer">
+          <span>Filter</span>
+          <div class="dropdownfilter">
+            <button class="profilebutton activebutton" onclick="filterSelection('all')"> The Team</button>
+            <button class="profilebutton" onclick="filterSelection('admin')"> Founders</button>
+            <button class="profilebutton" onclick="filterSelection('scratch')"> Scratch</button>
+            <button class="profilebutton" onclick="filterSelection('webdev')"> Web Development</button>
+            <button class="profilebutton" onclick="filterSelection('python')"> Python</button>
+            <button class="profilebutton" onclick="filterSelection('cplus')"> C#</button>
+            <button class="profilebutton" onclick="filterSelection('rust')"> Rust</button>
+            <button class="profilebutton" onclick="filterSelection('linux')"> Linux</button>
+          </div>
+        </div>
+
+      <div class="teamgrid">
+
+        <div class="organizer admin webdev">
+          <div class="profileclass" >
+            <div class="member" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pic"><img src="assets/img/profilepic/raghavprofilepic.png" class="img-fluid" alt="Raghav profilepic"></div>
+              <div class="member-info">
+                <h4>Raghav Sriram</h4><span>Founder</span>
+                <div class="social">
+                  <a href=""><i class="fa fa-envelope"></i></a>
+                  <a href=""><i class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="organizer admin">
+          <div class="profileclass" >
+          <div class="member" data-aos="zoom-in"  data-aos-delay="100">
+            <div class="pic"><img src="assets/img/profilepic/ericzprofilepic.png" class="img-fluid" alt="Eric Z profilepic">
+            </div>
+            <div class="member-info" >
+              <h4>Eric Zhu</h4><span>Founder</span>
+              <div class="social">
+                <a href=""><i class="fa fa-envelope"></i></a>
+                <a href=""><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+     <div class="organizer scratch python webdev admin">
+        <div class="profileclass" >
+          <div class="member" data-aos="zoom-in"  data-aos-delay="100">
+            <div class="pic"><img src="assets/img/profilepic/eamonprofilepic.png" class="img-fluid" alt="Eamon profile pic"></div>
+            <div class="member-info">
+              <h4>Eamon Mukhopadhyay</h4><span>Founder</span>
+              <div class="social">
+                <a href=""><i class="fa fa-envelope"></i></a>
+                <a href=""><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+   <div class="organizer admin">
+        <div class="profileclass" >
+          <div class="member" data-aos="zoom-in"  data-aos-delay="100">
+            <div class="pic"><img src="assets/img/profilepic/maxwellprofilepic.png" class="img-fluid" alt="Maxwell profilepic"></div>
+            <div class="member-info">
+              <h4>Maxwell Ye</h4><span>Founder</span>
+              <div class="social">
+                <a href=""><i class="fa fa-envelope"></i></a>
+                <a href=""><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+
+   <div class="organizer admin scratch">
+        <div class="profileclass" >
+          <div class="member" data-aos="zoom-in"  data-aos-delay="100">
+            <div class="pic"><img src="assets/img/profilepic/ericprofilepic.png" class="img-fluid" alt="Eric profile pic"></div>
+            <div class="member-info">
+              <h4>Eric Guo</h4><span>Founder</span>
+              <div class="social">
+               <a href=""><i class="fa fa-envelope"></i></a>
+                <a href=""><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+     <div class="organizer admin python">
+        <div class="profileclass" >
+          <div class="member" data-aos="zoom-in"  data-aos-delay="100">
+            <div class="pic"><img src="assets/img/profilepic/avinashprofilepic.png" class="img-fluid" alt="Avinash profile pic"></div>
+            <div class="member-info">
+              <h4>Avinash Valuveri</h4><span>Founder</span>
+              <div class="social">
+                <a href=""><i class="fa fa-envelope"></i></a>
+                <a href=""><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+   <div class="organizer python">
+        <div class="profileclass" >
+          <div class="member" data-aos="zoom-in"  data-aos-delay="100">
+            <div class="pic"><img src="assets/img/profilepic/stanleyprofilepic.png" class="img-fluid" alt="Stanley profile pic"></div>
+            <div class="member-info">
+              <h4>Stanley Zheng</h4><span>Python Teacher</span>
+              <div class="social">
+                <a href=""><i class="fa fa-envelope"></i></a>
+                <a href=""><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+   <div class="organizer cplus">
+        <div class="profileclass" >
+          <div class="member" data-aos="zoom-in"  data-aos-delay="100">
+            <div class="pic"><img src="assets/img/profilepic/aaronprofilepic.png" class="img-fluid" alt="Aaron profile pic"></div>
+            <div class="member-info">
+              <h4>Aaron Garner</h4><span>C# Teacher</span>
+              <div class="social">
+                <a href=""><i class="fa fa-envelope"></i></a>
+                <a href=""><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+   <div class="organizer python">
+        <div class="profileclass" >
+          <div class="member"   data-aos-delay="100">
+            <div class="pic"><img src="assets/img/profilepic/adamprofilepic.png" class="img-fluid" alt="Eric profile pic"></div>
+            <div class="member-info">
+              <h4>Adam Ventura</h4><span>Python Teacher</span>
+              <div class="social">
+                <a href=""><i class="fa fa-envelope"></i></a>
+                <a href=""><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+   <div class="organizer python">
+        <div class="profileclass">
+          <div class="member"  data-aos-delay="100">
+            <div class="pic"><img src="assets/img/profilepic/janprofilepic.png" class="img-fluid" alt="Jan profile pic"></div>
+            <div class="member-info">
+              <h4>Jan Pilař</h4><span>Python Teacher</span>
+              <div class="social">
+                <a href=""><i class="fa fa-envelope"></i></a>
+                <a href=""><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="organizer rust linux">
+        <div class="profileclass">
+          <div class="member"  data-aos-delay="100">
+            <div class="pic"><img src="assets/img/profilepic/jacobyprofilepic.png" class="img-fluid" alt="jacoby profile pic"></div>
+            <div class="member-info">
+              <h4>Jacoby Yliemieni</h4><span>Rust/Linux Teacher</span>
+              <div class="social">
+                <a href=""><i class="fa fa-envelope"></i></a>
+                <a href=""><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<!--      <div class="row" data-aos="fade-left">-->
+
+    </div>
+  </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+
+      <div class="row">
+        <div style="position: relative; width: 100%; padding-right: 15px;padding-left: 15px;"class="d-flex align-items-stretch flex-column py-5 justify-content-center px-lg-5 icon-boxes" data-aos="fade-left">
+          <h3>NexEdge Innovations</h3>
+          <p style="text-indent:50px;">AcademiaEdge is brought to you by a group from NexEdge Innovations. We are a group of students that aim to make a difference in our communinty of like minded and passionate learners.
+          </p>
+          <p style="text-align: center">Take a look at what we've done so far!</p>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-xl-5 col-lg-6 d-flex justify-content-center align-items-stretch" data-aos="fade-right">
+          <img src="/assets/img/nexedgeinnovationsquicklook.png" class="img-fluid" style="border-radius: 25px;" alt="NexEdge Innovations">
+        </div>
+
+        <div class="col-xl-7 col-lg-6 icon-boxes2 d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
+          <h3>NexEdge Innovations</h3>
+          <p style="text-indent:50px;">NexEdge Innovations is a multiconglomerate company composed of a team of students based in Indiana.  We aspire to help other high school students by creating a platform where they can share their opinion, ideas, and views on global issues, all while giving advice to students and inspiring them to learn and teach others.
+          </p>
+          <div class="text-center text-lg-left">
+            <a style="color:white; text-decoration:none;" href="https://nexedgeinnovations.com/" class="btn-to-visit scrollto">Visit NexEdge Innovations!</a>
+          </div>
+        </div>
+
+      </div>
+
+      <br>
+      
+      <div class="row">
+        <div class="col-xl-5 col-lg-6 d-flex justify-content-center align-items-stretch" data-aos="fade-right">
+          <img src="/assets/img/voicesofcarmelquicklook.png" class="img-fluid" style="border-radius: 25px" alt="NexEdge Innovations">
+        </div>
+        <div class="col-xl-7 col-lg-6 icon-boxes2 d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
+          <h3>Voices of Carmel</h3>
+          <p style="text-indent:50px;">With the current events unfolding, it becomes increasingly difficult to voice your opinion. Voices of Carmel aims to solve just that. On this blog, all citizens of Carmel can suggest changes that will provide help to this city and share opinions on a safe space. If you have anything that you want to say about the city, please post it here and we will help you share your opinion.
+          </p>
+          <div class="text-center text-lg-left">
+            <a style="color:white; text-decoration:none;" href="https://voicesofcarmel.com/" class="btn-to-visit scrollto">Visit Voices of Carmel!</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End About Section -->
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact" style="margin-top: -4%;">
+    <div class="container">
+
+      <div class="section-title" data-aos="fade-up" style="margin-top:50px">
+        <h2>Contact</h2>
+        <p>Contact Us</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
+          <div class="info">
+            <div class="address">
+              <i class="icofont-google-map"></i>
+              <h4>Location:</h4>
+              <p>Based in Carmel, IN</p>
+            </div>
+            <div class="email">
+              <i class="icofont-envelope"></i>
+              <h4>Email:</h4>
+              <p>contact@academiaedge.com</p>
+            </div>
+            <div class="phone">
+              <i class="icofont-phone"></i>
+              <h4>Phone</h4>
+              <p>(317) 675-8645</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="form-row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validate"></div>
+              </div>
+              <div class="col-md-6 form-group">
+                <input type="Email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validate"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validate"></div>
+            </div>
+            <div class="mb-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+            <div class="text-center"><button style="color:white"type="submit">Send Message</button></div>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!--  End Contact Section -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info" data-aos="fade-right" data-aos-delay="200">
+              <h3>AcademiaEdge</h3>
+              <p>Carmel, USA</p>
+              <br>
+              <p><strong>Email:</strong></p>
+              <p> academiaedgelearning@gmail.com</p>
+              <br>
+              <p>nexedgeinnovations@gmail.com</p>
+              <br>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-github"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-md-6">
+            <div class="footer-link d-flex flex-wrap footer-links footer-info"><!--temporary fix to footer by adding new class, footer-info-->
+
+              <div class="footer-link-wrapper mt-45" data-aos="fade-up" data-aos-delay="200">
+                <div class="footer-title">
+                  <h3>Navigation</h3>
+                </div>
+                <ul style="font-size: 17.5px;">
+                  <li><i class="bx bx-chevron-right"></i><a class="" href="#home">Home</a></li>
+                  <li><i class="bx bx-chevron-right"></i><a class="" href="#features">Courses</a></li>
+                  <li><i class="bx bx-chevron-right"></i><a class="" href="#pricing1">Team</a></li>
+                  <li><i class="bx bx-chevron-right"></i><a class="" href="#founders">Join Us</a></li>
+                  <li><i class="bx bx-chevron-right"></i><a class="" href="#download">Contact</a></li>
+                </ul>
+              </div>
+              <!-- footer link wrapper -->
+  
+              <div class="footer-link-wrapper mt-45" data-aos="fade-left" data-aos-delay="200" style="padding-bottom: 2%;">
+                <div class="footer-title">
+                  <h3>Follow Our Newsletter</h3>
+                </div>
+                <form action="Subscription1.php" method="post" id="tran" style="margin-top: 4%;">
+                  <input type="text"  placeholder="Name" name="name"   style="color:black;" required>
+                  <input type="Email" placeholder="Email" name="email" style="color:black;" required>
+                  <input  type="submit" value="Subscribe" name="submit" class="btn_email" class="email main-btn main-btn-2"  style="width:100%; font-size:18px; padding:15px; background-color:#0898E7;">
+                </form>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="copyright">&copy; Copyright <strong><span> AcademiaEdge</span></strong>. All Rights Reserved</div>
+    </div>
+  </footer>
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("organizer");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "buttonappear");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "buttonappear");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("profilebutton");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("activebutton");
+    current[0].className = current[0].className.replace(" activebutton", "");
+    this.className += " activebutton";
+  });
+}
+</script>
+</body>
+
+</html>
