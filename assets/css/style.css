@@ -345,18 +345,13 @@ p {
 .navflex {
   display:none;
 }
-.oppnavflex {
-  display:block;
-}
+
 @media (min-width: 770px) {
   .navflex {
     display: block;
   }
   .threebars {
     display: none !important;
-  }
-  .oppnavflex {
-    display:none;
   }
 }
 
@@ -383,8 +378,9 @@ p {
 .mobile-nav {
   position: fixed;
   top: 55px;
-  right: 15px;
-  left: 15px;
+  right: 10px;
+  left: 60%;
+  bottom:10px;
   z-index: 9999;
   overflow-y: auto;
   background: #fff;
@@ -393,7 +389,6 @@ p {
   visibility: hidden;
   border-radius: 10px;
   padding: 10px 0;
-  height:300px;
 }
 
 .mobile-nav * {
@@ -464,7 +459,7 @@ p {
   top: 0;
   left: 0;
   position: fixed;
-  background: #2063A5;
+  background: rgb(32, 99, 165,0.9);
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
