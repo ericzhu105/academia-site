@@ -2522,6 +2522,9 @@ Courses--------------
   text-decoration: none !important;
 }
 
+#footer .footer-top .footer-links ul .activefooter {
+  color:#4be8b0;
+}
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
   background: #fff;
