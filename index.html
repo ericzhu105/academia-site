@@ -461,26 +461,19 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-row">
-                <div class="col-md-6 form-group">
-                  <input id="firstnamec" type="text" name="firstname" required placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="col-md-6 form-group">
-                  <input type="Email" id="emailc" name="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <input type="text" id="subjectc" name="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <textarea name="message" id="message" rows="5" name="message"  data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validate"></div>
-              </div>
+              <label for="firstnamec">First Name</label>
+              <input id="firstnamec" type="text" name="firstname" required>
+              <label for="lastnamec">Last Name</label>
+              <input type="text" id="lastnamec" name="lastname" required><br>
+              <label for="emailc">Email</label>
+              <input type="Email" id="emailc" name="email" required><br>
+              <label for="subjectc">Subject</label>
+              <input  type="text" id="subjectc" name="subject"><br>
+              <label for="messagec">Message</label>
+              <textarea name="message" id="message" rows="5" name="message" required></textarea>
+              <br>
               <input type="submit" class="submit" name="submit" class="btn_email" style="background-color: #005577ee;" value="Send Message">
-            </form>
+          </form>   
           </div>
 
         </div>
