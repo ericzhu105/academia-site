@@ -761,10 +761,10 @@ body, html {
 /*--------------------------------------------------------------
 # BG Section
 --------------------------------------------------------------*/
-
+/*for courses*/
 .bg-image {
   padding: 180px 0;
-  background: url("https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg") no-repeat;
+  background: url("/assets/img/coursebgimg.png") no-repeat;
   height: 45%;
   background-position: center center;
   background-size: cover;
@@ -772,6 +772,25 @@ body, html {
 }
 
 .bg-image::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background:  #3366cccb;
+}
+/*for team*/
+.bg-image2 {
+  padding: 180px 0;
+  background: url("/assets/img/teambgimg.jpg") no-repeat;
+  height: 45%;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-image2::before {
   content: "";
   position: absolute;
   left: 0;
@@ -1123,16 +1142,9 @@ section {
 }
 
 .about .icon-boxes h3 {
-  font-size: 75px;
-  font-weight: 700;
-  color: #010483;
-  margin-bottom: 15px;
-}
-
-.about .icon-boxes2 h3 {
   font-size: 40px;
-  font-weight: 500;
-  color: grey;
+  font-weight: 600;
+  color: #010483;
   margin-bottom: 15px;
 }
 
