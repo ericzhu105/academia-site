@@ -459,23 +459,35 @@
             </div>
           </div>
 
-          <form action="contact.php" method="post">
-            <label for="firstnamec">First Name</label>
-            <input id="firstnamec" type="text" name="firstname" required>
-            <label for="lastnamec">Last Name</label>
-            <input type="text" id="lastnamec" name="lastname" required><br>
-            <label for="emailc">Email</label>
-            <input type="Email" id="emailc" name="email" required><br>
-            <label for="subjectc">Subject</label>
-            <input  type="text" id="subjectc" name="subject"><br>
-            <label for="messagec">Message</label>
-            <textarea name="message" id="message" rows="5" name="message" required></textarea>
-            <br>
-            <input class="button3" type="submit" class="submity" name="submit" class="btn_email" style="background-color:rgba(129, 182, 107, 0.685);;" value="Send Message">
-          </form>   
-          </div>
-
-        </div>
+          <!-- Contact Section -->
+<!--heading-->
+<div  class="w3-display-container container" style = "margin-top: 0.75%;" id="contact">
+  <h3 style = "text-align: center; font-size: 55px;"><strong>Contact Us</strong></h3>
+  <p class="w3-opacity" style = "text-align: center; font-size: 17px; margin-top: -0.75%; color:rgb(37, 37, 37); "><em>Have a question? Submit them here and we'll get back to you!</em></p><br>
+<div class="w3-display-container container" style="margin-top:-30px;">
+  <div style="max-width: 1375px; margin:auto;">
+    <div  style="color: rgba(31, 88, 8, 0.685);">
+      <p style="font-size: 17.5px;"><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Carmel, IN</p>
+      <p style="font-size: 17.5px;"><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: (317) 675-8645</p>
+      <p style="font-size: 17.5px;"><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email:  contact@academiaedge.com</p><br>
+    </div>
+    <form action="Contact-Form5.php" method="post">
+      <label for="firstnamec">First Name</label>
+      <input id="firstnamec" type="text" name="firstname" required>
+      <label for="lastnamec">Last Name</label>
+      <input type="text" id="lastnamec" name="lastname" required><br>
+      <label for="emailc">Email</label>
+      <input type="Email" id="emailc" name="email" required><br>
+      <label for="subjectc">Subject</label>
+      <input  type="text" id="subjectc" name="subject"><br>
+      <label for="messagec">Message</label>
+      <textarea name="message" id="message" rows="5" name="message" required></textarea>
+      <br>
+      <input class="button3" type="submit" class="submity" name="submit" class="btn_email" style="background-color:rgba(31, 88, 8, 0.685);;" value="Send Message">
+    </form>   
+  </div>
+</div>
+</div>
 
       </div>
     </section><!--  End Contact Section -->
