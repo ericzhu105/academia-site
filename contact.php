@@ -6,12 +6,12 @@ $message = $_POST['message'];
  
 $email_from = "$visitor_email.\n";
  
-$email_subject = "$subject\n";
+$email_subject = "Feedback: $subject\n";
  
 $email_body = "Name: $name.\n".
 				"Message: $message\n";
  
-$to = "academiaedgelearning@gmail.com";
+$to = "contact@academiaedge.com";
  
  
 $headers = "From: $email_from \r\n";
