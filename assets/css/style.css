@@ -1330,6 +1330,19 @@ section {
   background: #06f09e;
 }
 
+.indexquarter{float:left;width:100%}
+@media (min-width:601px){
+  .indexquarter {
+    width:50%;
+  }
+}
+@media (min-width:900px){
+  .indexquarter {
+    width:24.99999%;
+  }
+}
+
+.w3-row-padding>.indexquarter{padding:0 8px}
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
