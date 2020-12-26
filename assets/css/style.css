@@ -379,7 +379,7 @@ p {
   position: fixed;
   top: 55px;
   right: 10px;
-  left: 60%;
+  left: 50%;
   bottom:10px;
   z-index: 9999;
   overflow-y: auto;
