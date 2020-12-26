@@ -794,7 +794,25 @@ body, html {
   bottom: 0;
   background:  #3366cccb;
 }
+/*for joinus.html*/
+.bg-image3 {
+  padding: 180px 0;
+  background: url("/assets/img/joinusbgimg.jpg") no-repeat;
+  height: 45%;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
 
+.bg-image3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background:  #3366cccb;
+}
 .bg-text {
   color: white;
   font-weight: 900;
