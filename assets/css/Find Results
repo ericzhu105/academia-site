@@ -1,0 +1,92 @@
+Searching 74 files for "pageheader"
+
+/Users/nitrostrider/Desktop/Nitrostrider/acedemia-site/courses.html:
+   68    <div class="bg-image">
+   69      <div class="bg-text">
+   70:         <h1 class= "pageheadermax" style="font-size:75px; font-weight: 900;">Course Selection</h1>
+   71      </div>
+   72    </div>
+
+/Users/nitrostrider/Desktop/Nitrostrider/acedemia-site/index.html:
+   73            <div data-aos="zoom-out">
+   74              <h1  style="font-size: 55px;line-height:64px;">Improve Your Coding Skills With<span> AcademiaEdge</span></h1>
+   75:             <h2 class= "pageheader">We are a non-profit organization aimed to teach students programming and problem-solving skills</h2>
+   76              <div class="text-center text-lg-left" style="margin-top: -3%;">
+   77                <a style="color:white;" href="courses.html" class="btn-get-started scrollto">Register</a>
+
+/Users/nitrostrider/Desktop/Nitrostrider/acedemia-site/intropython.html:
+   73    <div class="bg-image" id="course">
+   74      <div class="bg-text">
+   75:         <h1 class="pageheader" style="font-size:50px; font-weight: 900; font-family: Arial, Helvetica, sans-serif" data-aos="fade-left">Introduction to Web Development and Design</h1>
+   76          <br>
+   77      </div>
+
+/Users/nitrostrider/Desktop/Nitrostrider/acedemia-site/joinus.html:
+   73    <div class="bg-image3">
+   74      <div class="bg-text">
+   75:         <h1 class= "pageheadermax" style="font-size:75px; font-weight: 900;">Join Us</h1>
+   76      </div>
+   77    </div>
+
+/Users/nitrostrider/Desktop/Nitrostrider/acedemia-site/scratch.html:
+   73    <div class="bg-image" id="course">
+   74      <div class="bg-text">
+   75:         <h1 class="pageheader" style="font-size:50px; font-weight: 900; font-family: Arial, Helvetica, sans-serif" data-aos="fade-left">Introduction to Scratch</h1>
+   76          <br>
+   77      </div>
+
+/Users/nitrostrider/Desktop/Nitrostrider/acedemia-site/team.html:
+   72    <div class="bg-image2">
+   73      <div class="bg-text">
+   74:         <h1 class= "pageheadermax"style="font-size:75px; font-weight: 900;">Our Great Team</h1>
+   75      </div>
+   76    </div>
+
+/Users/nitrostrider/Desktop/Nitrostrider/acedemia-site/webdev.html:
+   73    <div class="bg-image" id="course">
+   74      <div class="bg-text">
+   75:         <h1 class="pageheader" style="font-size:50px; font-weight: 900; font-family: Arial, Helvetica, sans-serif" data-aos="fade-left">Introduction to Web Development and Design</h1>
+   76          <br>
+   77      </div>
+
+/Users/nitrostrider/Desktop/Nitrostrider/acedemia-site/assets/css/style.css:
+  832      display: none !important;
+  833    }
+  834:   .pageheadermax{
+  835      font-size: 50px !important;
+  836    }
+
+8 matches across 8 files
+
+
+fSearching 74 files for "backnavelement"
+
+/Users/nitrostrider/Desktop/Nitrostrider/acedemia-site/intropython.html:
+   79    <div class="w3-row backnavigation">
+   80        <div class="text-center" data-aos="fade-left" >
+   81:           <p style="margin-top: 0.63%;" class="backnavelement">
+   82              <a href="index.html" class="backelement backelement1">Home</a>
+   83              <i class="fa fa-caret-right backicon"></i>
+
+/Users/nitrostrider/Desktop/Nitrostrider/acedemia-site/scratch.html:
+   79    <div class="w3-row backnavigation">
+   80        <div class="text-center" data-aos="fade-left" >
+   81:           <p style="margin-top: 0.63%;" class="backnavelement">
+   82              <a href="index.html" class="backelement backelement1">Home</a>
+   83              <i class="fa fa-caret-right backicon"></i>
+
+/Users/nitrostrider/Desktop/Nitrostrider/acedemia-site/webdev.html:
+   79    <div class="w3-row backnavigation">
+   80        <div class="text-center" data-aos="fade-left" >
+   81:           <p style="margin-top: 0.63%;" class="backnavelement">
+   82              <a href="index.html" class="backelement backelement1">Home</a>
+   83              <i class="fa fa-caret-right backicon"></i>
+
+/Users/nitrostrider/Desktop/Nitrostrider/acedemia-site/assets/css/style.css:
+  832      font-size: 40px !important;
+  833    }
+  834:   .backnavelement{
+  835      display: none !important;
+  836    }
+
+4 matches across 4 files

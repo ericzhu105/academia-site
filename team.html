@@ -71,33 +71,34 @@
 
   <div class="bg-image2">
     <div class="bg-text">
-        <h1 class= "pageheadermax"style="font-size:75px; font-weight: 900;">Our Great Team</h1>
+        <h1 data-aos="fade-left">Our Great Team</h1>
     </div>
   </div>
 
   <!-- ======= Team Section ======= -->
   <!-- all images need to be 400px by 474px-->
   <section id="team" class="team">
-    <div class="container">
+    
+    <div class="w3-row" style="margin-left: 4%; margin-right: 4%;">
 
-      <div class="section-title" style=" padding-bottom: 20px"data-aos="fade-up">
+      <div class="section-titlebtnbelow" data-aos="fade-up">
         <h2>Team</h2>
         <p>Meet the Teachers</p>
       </div>
 
-        <div id="myBtnContainer" data-aos="zoom-out"  data-aos-delay="1000">
+        <div id="myBtnContainerteam" data-aos="zoom-out"  data-aos-delay="1000">
           <span>Select</span>
           <div class="dropdownfilter">
-            <button style="margin-bottom: -2%; font-size:14px" class="profilebutton activebutton" onclick="filterSelection('all')"> The Team</button>
-            <button  style="margin-bottom: -2%; font-size:14px" class="profilebutton" onclick="filterSelection('admin')"> Founders</button>
-            <button style="margin-bottom: -2%; font-size:14px" class="profilebutton" onclick="filterSelection('scratch')"> Scratch</button>
-            <button style="margin-bottom: -2%; font-size:14px" class="profilebutton" onclick="filterSelection('webdev')"> Web Development</button>
-            <button style="margin-bottom: -2%; font-size:14px" class="profilebutton" onclick="filterSelection('javascript')"> JavaScript</button>
-            <button style="margin-bottom: -2%; font-size:14px" class="profilebutton" onclick="filterSelection('python')"> Python</button>
-            <button style="margin-bottom: -2%; font-size:14px" class="profilebutton" onclick="filterSelection('cplus')"> C#</button>
-            <button style="margin-bottom: -2%; font-size:14px" class="profilebutton" onclick="filterSelection('rust')"> Rust</button>
-            <button style="margin-bottom: -2%; font-size:14px" class="profilebutton" onclick="filterSelection('linux')"> Linux</button>
-            <button style="margin-bottom: -2%; font-size:14px" class="profilebutton" onclick="filterSelection('Java')"> Java</button>
+            <button class="profilebutton activebutton" onclick="filterSelection('all')"> The Team</button>
+            <button class="profilebutton" onclick="filterSelection('admin')"> Founders</button>
+            <button class="profilebutton" onclick="filterSelection('scratch')"> Scratch</button>
+            <button class="profilebutton" onclick="filterSelection('webdev')"> Web Development</button>
+            <button class="profilebutton" onclick="filterSelection('javascript')"> JavaScript</button>
+            <button class="profilebutton" onclick="filterSelection('python')"> Python</button>
+            <button class="profilebutton" onclick="filterSelection('csharp')"> C#</button>
+            <button class="profilebutton" onclick="filterSelection('rust')"> Rust</button>
+            <button class="profilebutton" onclick="filterSelection('linux')"> Linux</button>
+            <button class="profilebutton" onclick="filterSelection('java')"> Java</button>
           </div>
         </div>
 
@@ -209,7 +210,7 @@
         </div>
       </div>
 
-   <div class="organizer cplus">
+   <div class="organizer csharp">
         <div class="profileclass" >
           <div class="member" data-aos="zoom-in"  data-aos-delay="100">
             <div class="pic"><img src="assets/img/profilepic/aaronprofilepic.png" class="img-fluid" alt="Aaron profile pic"></div>
@@ -268,7 +269,7 @@
         </div>
       </div>
 
-      <div class="organizer Java">
+      <div class="organizer java">
         <div class="profileclass">
           <div class="member"  data-aos-delay="100">
             <div class="pic"><img src="assets/img/profilepic/shivaprofilepic.png" class="img-fluid" alt="shiva profile pic"></div>
@@ -407,10 +408,10 @@
                   <h3>Navigation</h3>
                 </div>
                 <ul style="font-size: 17.5px;">
-                  <li><i class="bx bx-chevron-right"></i><a class="activefooter" href="index.html">Home</a></li>
+                  <li><i class="bx bx-chevron-right"></i><a href="index.html">Home</a></li>
                   <li><i class="bx bx-chevron-right"></i><a href="courses.html">Courses</a></li>
                   <li><i class="bx bx-chevron-right"></i><a href="joinus.html">Join Us</a></li>
-                  <li><i class="bx bx-chevron-right"></i><a href="team.html">Team</a></li>
+                  <li><i class="bx bx-chevron-right"></i><a class="activefooter" href="team.html">Team</a></li>
                 </ul>
               </div>
               <!-- footer link wrapper -->
@@ -453,6 +454,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 <script>
+//for the filter button all
 filterSelection("all")
 function filterSelection(c) {
   var x, i;
@@ -486,7 +488,7 @@ function w3RemoveClass(element, name) {
 }
 
 // Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
+var btnContainer = document.getElementById("myBtnContainerteam");
 var btns = btnContainer.getElementsByClassName("profilebutton");
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function(){

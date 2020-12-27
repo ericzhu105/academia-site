@@ -816,7 +816,6 @@ body, html {
 
 .bg-text {
   color: white;
-  font-weight: 900;
   position: absolute;
   top: 60%;
   left: 50%;
@@ -826,16 +825,27 @@ body, html {
   padding: 20px;
   text-align: center;
 }
+/*for course.html and team.html*/
+.bg-text h1 {
+  font-size:75px;
+  font-weight: 900;
+}
+/*for htmls in course folder */
+.bg-text h1.courseheader {
+  font-size:50px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 @media (max-width: 800px){
-  .pageheader{
-    font-size: 35px !important;
-  }
   .backnavelement{
     display: none !important;
+  }/*makes it less cluttered*/
+  .bg-text h1 {
+    font-size:60px;
   }
-  .pageheadermax{
-    font-size: 50px !important;
+  .bg-text h1.courseheader {
+    font-size:40px;
   }
 }
 
@@ -1067,8 +1077,11 @@ section {
 .section-title {
   padding-bottom: 40px;
 }
+.section-titlebtnbelow {
+  padding-bottom:20px;
+}
 
-.section-title h2 {
+.section-title h2, .section-titlebtnbelow h2 {
   font-size: 14px;
   font-weight: 500;
   padding: 0;
@@ -1080,7 +1093,7 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.section-title h2::after {
+.section-title h2::after, .section-titlebtnbelow h2::after {
   content: "";
   width: 120px;
   height: 1px;
@@ -1089,7 +1102,7 @@ section {
   margin: 4px 10px;
 }
 
-.section-title p {
+.section-title p, .section-titlebtnbelow p {
   margin: 0;
   margin: 0;
   font-size: 36px;
@@ -1882,6 +1895,7 @@ Courses--------------
   margin-bottom: 2%;
   margin-top: 2%;
   padding-left:2%;
+  display:none;
 }
 @media (max-width:25000px) {
   .coursegriditem {
@@ -1991,10 +2005,9 @@ Courses--------------
   padding-left:2%;
   display:none;
 }
-#myBtnContainer {
+#myBtnContainerteam, #myBtnContainercourses {
   position:relative;
   display:inline-block;
-  width:300px;
   text-align:center;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -2005,6 +2018,8 @@ Courses--------------
   color: #fff;
   background: #16dd97;
   z-index:500;
+  margin-left:2%;
+  width:300px;
 }
 
 .profilebutton {
@@ -2019,7 +2034,8 @@ Courses--------------
   background: rgba(255, 255, 255, 0.98);
   border-width: 0px;
   text-align:center;
-  width:300px;
+  width:100%;
+  margin-bottom: -2%;
 }
 .profilebutton:hover {
   color:#16dd97;
@@ -2030,10 +2046,10 @@ Courses--------------
   margin-top:10px;/*margins are from the padding of myBtnContianer*/
   margin-left:-30px;
 }
-#myBtnContainer:hover .dropdownfilter {
+#myBtnContainerteam:hover .dropdownfilter, #myBtnContainercourses:hover .dropdownfilter {
   display:block;
 }
-#myBtnContainer:hover {
+#myBtnContainerteam:hover, .#myBtnContainercourses:hover {
   background: #06f09e;
   text-decoration:none;
 }
@@ -2047,26 +2063,20 @@ Courses--------------
   .organizer {
     width:25%;
   }
-  #myBtnContainer {
-    display: block;
-  }
 }
 @media (max-width: 768px) {
   .organizer {
     width:50%;
   }
-  #myBtnContainer {
+  #myBtnContainerteam, #myBtnContainercourses {
     display: block;
-    width: 100%
+    width: 75%;
+    margin:auto;
   }
 }
 @media (max-width: 576px) {
   .organizer {
     width:100%;
-  }
-  #myBtnContainer {
-    display: block;
-    width: 100%
   }
 }
 /*--------------------------------------------------------------
