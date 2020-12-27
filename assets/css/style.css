@@ -2400,9 +2400,9 @@ Courses--------------
 }
 .coursebutton {
   color: white; 
-  border: 2px solid#4a9cff;
+  border: 2px solid#18d26e;
   border-radius: 8px;
-  background-color:#4a9cff;
+  background-color:#18d26e;
   padding-top: 7px;
   padding-bottom: 7px;
   padding-left: 10px;
@@ -2411,7 +2411,7 @@ Courses--------------
 }
 .coursebutton:hover {
   background-color: white;
-  color: #4a9cff;
+  color: #18d26e;
 }
 
 .buttontext {
