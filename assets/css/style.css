@@ -826,6 +826,15 @@ body, html {
   text-align: center;
 }
 
+@media (max-width: 800px){
+  .pageheader{
+    font-size: 40px !important;
+  }
+  .backnavelement{
+    display: none !important;
+  }
+}
+
 .round {
   border-radius: 50%;
 }
