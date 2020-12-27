@@ -76,15 +76,31 @@
 
     <div class="w3-row" style="margin-left: 4%; margin-right: 4%;">
 
-      <div class="section-title" data-aos="fade-up">
+      <div class="section-titlebtnbelow" data-aos="fade-up">
         <h2>Courses</h2>
         <p>Our Classes</p>
       </div>
 
-      <div class="coursegrid w3-center" style="margin-top: -2%;">
+      <div id="myBtnContainercourses" data-aos="zoom-out"  data-aos-delay="1000">
+        <span>Select</span>
+        <div class="dropdownfilter">
+          <button class="profilebutton activebutton" onclick="filterSelection('all')">All</button>
+          <button class="profilebutton" onclick="filterSelection('scratch')"> Scratch</button>
+          <button class="profilebutton" onclick="filterSelection('webdev')"> Web Development</button>
+          <button class="profilebutton" onclick="filterSelection('javascript')">JavaScript</button>
+          <button class="profilebutton" onclick="filterSelection('python')"> Python</button>
+          <button class="profilebutton" onclick="filterSelection('csharp')"> C#</button>
+          <button class="profilebutton" onclick="filterSelection('rust')"> Rust</button>
+          <button class="profilebutton" onclick="filterSelection('linux')"> Linux</button>
+          <button class="profilebutton" onclick="filterSelection('java')"> Java</button>
+        </div>
+      </div>
+
+      <div class="coursegrid">
 
       <!--all images 506 by 337 px-->
-      <div class="coursegriditem">
+
+      <div class="coursegriditem webdev">
         <!--<div class="about-content mt-50 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.5s">-->
           <div class="member" data-aos="zoom-in" data-aos-delay="100">
             <div class="pic"><img src="assets/img/courseimg/htmlcssclasspic.jpg" class="img-fluid" style="margin-bottom:20%;" alt="Web Development Image"></div>
@@ -100,9 +116,9 @@
       </div>
 
       <!-- Fill in correct link and photo info -->
-      <div class="coursegriditem">
+      <div class="coursegriditem javascript">
         <div class="member" data-aos="zoom-in" data-aos-delay="100">
-          <div class="pic"><img src="assets/img/courseimg/r2.png" class="img-fluid" style="margin-bottom:20%;" alt="Amanda profilepic"></div>
+          <div class="pic"><img src="assets/img/courseimg/placeholder.png" class="img-fluid" style="margin-bottom:20%;" alt="Amanda profilepic"></div>
           <div class="member-info">
             <h4>Introduction to JavaScript</h4>
             <span>Lead Teacher: Jihun Mirio</span>
@@ -113,7 +129,7 @@
         </div>
       </div>
 
-      <div class="coursegriditem">
+      <div class="coursegriditem scratch">
         <div class="member" data-aos="zoom-in" data-aos-delay="100">
           <div class="pic"><img src="assets/img/courseimg/scratchclassimage.png" class="img-fluid" style="margin-bottom:20%;" alt="scratch image"></div>
           <div class="member-info">
@@ -126,7 +142,7 @@
         </div>
       </div>
 
-      <div class="coursegriditem">
+      <div class="coursegriditem python">
         <div class="member" data-aos="zoom-in" data-aos-delay="100">
           <div class="pic"><img src="assets/img/courseimg/pythonclasspic.jpg" class="img-fluid" style="margin-bottom:20%;" alt="Amanda profilepic"></div>
           <div class="member-info">
@@ -139,7 +155,7 @@
         </div>
       </div>
 
-      <div class="coursegriditem">
+      <div class="coursegriditem python">
         <div class="member" data-aos="zoom-in" data-aos-delay="100">
           <div class="pic"><img src="assets/img/courseimg/automation.jpg" class="img-fluid" style="margin-bottom:20%;" alt="Web Development Image"></div>
           <div class="member-info">
@@ -152,7 +168,7 @@
         </div>
       </div>
 
-      <div class="coursegriditem">
+      <div class="coursegriditem python">
         <div class="member" data-aos="zoom-in" data-aos-delay="100">
           <div class="pic"><img src="assets/img/courseimg/pygame.jpg" class="img-fluid" style="margin-bottom:20%;" alt="Amanda profilepic"></div>
           <div class="member-info">
@@ -165,7 +181,7 @@
         </div>
       </div>
 
-      <div class="coursegriditem">
+      <div class="coursegriditem python">
         <div class="member" data-aos="zoom-in" data-aos-delay="100">
           <div class="pic"><img src="assets/img/courseimg/ml.jpg" class="img-fluid" style="margin-bottom:20%;" alt="Amanda profilepic"></div>
           <div class="member-info">
@@ -178,7 +194,7 @@
         </div>
       </div>
 
-      <div class="coursegriditem">
+      <div class="coursegriditem csharp">
         <div class="member" data-aos="zoom-in" data-aos-delay="100">
           <div class="pic"><img src="assets/img/courseimg/c1.png" class="img-fluid" style="margin-bottom:20%;" alt="Web Development Image"></div>
           <div class="member-info">
@@ -191,7 +207,7 @@
         </div>
       </div>
 
-      <div class="coursegriditem">
+      <div class="coursegriditem csharp">
         <div class="member" data-aos="zoom-in" data-aos-delay="100">
           <div class="pic"><img src="assets/img/courseimg/c2.png" class="img-fluid" style="margin-bottom:20%;" alt="Amanda profilepic"></div>
           <div class="member-info">
@@ -204,7 +220,7 @@
         </div>
       </div>
 
-      <div class="coursegriditem">
+      <div class="coursegriditem csharp">
         <div class="member" data-aos="zoom-in" data-aos-delay="100">
           <div class="pic"><img src="assets/img/courseimg/c3.png" class="img-fluid" style="margin-bottom:20%;" alt="Amanda profilepic"></div>
           <div class="member-info">
@@ -217,7 +233,7 @@
         </div>
       </div>
 
-      <div class="coursegriditem">
+      <div class="coursegriditem rust">
         <div class="member" data-aos="zoom-in" data-aos-delay="100">
           <div class="pic"><img src="assets/img/courseimg/r1.png" class="img-fluid" style="margin-bottom:20%;" alt="Amanda profilepic"></div>
           <div class="member-info">
@@ -230,7 +246,7 @@
         </div>
       </div>
 
-      <div class="coursegriditem">
+      <div class="coursegriditem rust">
         <div class="member" data-aos="zoom-in" data-aos-delay="100">
           <div class="pic"><img src="assets/img/courseimg/r2.png" class="img-fluid" style="margin-bottom:20%;" alt="Amanda profilepic"></div>
           <div class="member-info">
@@ -244,9 +260,9 @@
       </div>
   
       <!-- Fill in correct link and photo info -->
-      <div class="coursegriditem">
+      <div class="coursegriditem java">
         <div class="member" data-aos="zoom-in" data-aos-delay="100">
-          <div class="pic"><img src="assets/img/courseimg/r1.png" class="img-fluid" style="margin-bottom:20%;" alt="Amanda profilepic"></div>
+          <div class="pic"><img src="assets/img/courseimg/placeholder.png" class="img-fluid" style="margin-bottom:20%;" alt="Amanda profilepic"></div>
           <div class="member-info">
             <h4>Introduction to JAVA</h4>
             <span>Lead Teacher: Shiva Oswal</span>
@@ -258,9 +274,9 @@
       </div>
 
       <!-- Fill in correct link and photo info -->
-      <div class="coursegriditem">
+      <div class="coursegriditem javscript">
         <div class="member" data-aos="zoom-in" data-aos-delay="100">
-          <div class="pic"><img src="assets/img/courseimg/r1.png" class="img-fluid" style="margin-bottom:20%;" alt="Amanda profilepic"></div>
+          <div class="pic"><img src="assets/img/courseimg/placeholder.png" class="img-fluid" style="margin-bottom:20%;" alt="Amanda profilepic"></div>
           <div class="member-info">
             <h4>Competitive Programming with JAVA</h4>
             <span>Lead Teacher: Shiva Oswal</span>
@@ -434,6 +450,51 @@
   </script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    //for the filter button all
+    filterSelection("all")
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("coursegriditem");
+      if (c == "all") c = "";
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "buttonappear");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "buttonappear");
+      }
+    }
+
+    function w3AddClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+      }
+    }
+
+    function w3RemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainercourses");
+    var btns = btnContainer.getElementsByClassName("profilebutton");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function(){
+        var current = document.getElementsByClassName("activebutton");
+        current[0].className = current[0].className.replace(" activebutton", "");
+        this.className += " activebutton";
+      });
+    }
+  </script>
 
 </body>
 
