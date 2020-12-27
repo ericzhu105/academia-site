@@ -816,7 +816,6 @@ body, html {
 
 .bg-text {
   color: white;
-  font-weight: 900;
   position: absolute;
   top: 60%;
   left: 50%;
@@ -826,16 +825,27 @@ body, html {
   padding: 20px;
   text-align: center;
 }
+/*for course.html and team.html*/
+.bg-text h1 {
+  font-size:75px;
+  font-weight: 900;
+}
+/*for htmls in course folder */
+.bg-text h1.courseheader {
+  font-size:50px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 @media (max-width: 800px){
-  .pageheader{
-    font-size: 35px !important;
-  }
   .backnavelement{
     display: none !important;
+  }/*makes it less cluttered*/
+  .bg-text h1 {
+    font-size:60px;
   }
-  .pageheadermax{
-    font-size: 50px !important;
+  .bg-text h1.courseheader {
+    font-size:40px;
   }
 }
 
