@@ -2036,7 +2036,7 @@ Courses--------------
   background: #16dd97;
   z-index:500;
   margin-left:2%;
-  width:30%;
+  width:550px;
 }
 
 .profilebutton {
@@ -2079,13 +2079,6 @@ Courses--------------
 @media (min-width: 1200px) {
   .organizer {
     width:25%;
-  }
-}
-@media (max-width: 900px) {
-  #myBtnContainerteam, #myBtnContainercourses {
-    display: block;
-    width: 75%;
-    margin:auto;
   }
 }
 @media (max-width: 768px) {
