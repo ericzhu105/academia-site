@@ -2005,7 +2005,7 @@ Courses--------------
   padding-left:2%;
   display:none;
 }
-#myBtnContainerteam, #myBtnContainercourses {
+#myBtnContainerteam {
   position:relative;
   display:inline-block;
   text-align:center;
@@ -2020,6 +2020,23 @@ Courses--------------
   z-index:500;
   margin-left:2%;
   width:300px;
+}
+
+#myBtnContainercourses {
+  position:relative;
+  display:inline-block;
+  text-align:center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding:10px 30px;
+  transition: 0.5s;
+  color: #fff;
+  background: #16dd97;
+  z-index:500;
+  margin-left:2%;
+  width:30%;
 }
 
 .profilebutton {
@@ -2062,6 +2079,13 @@ Courses--------------
 @media (min-width: 1200px) {
   .organizer {
     width:25%;
+  }
+}
+@media (max-width: 900px) {
+  #myBtnContainerteam, #myBtnContainercourses {
+    display: block;
+    width: 75%;
+    margin:auto;
   }
 }
 @media (max-width: 768px) {
