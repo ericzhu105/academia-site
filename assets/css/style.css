@@ -1883,35 +1883,6 @@ Courses--------------
   position: relative;
   text-shadow: 500px;
 }
-.coursegrid {
-  display: flex;
-  flex-wrap: wrap;
-}
-.coursecontainer{
-  width: 100%;
-}
-.coursegriditem {
-  margin-bottom:10px;
-  margin-bottom: 2%;
-  margin-top: 2%;
-  padding-left:2%;
-  display:none;
-}
-@media (max-width:25000px) {
-  .coursegriditem {
-    width:33.333333%;
-  }
-}
-@media (max-width:1200px) {
-  .coursegriditem {
-    width:50%;
-  }
-}
-@media (max-width:600px) {
-  .coursegriditem {
-    width:100%;
-  }
-}
 
 .team .member .pic {
   border-radius: 4px;
@@ -1987,6 +1958,21 @@ Courses--------------
 .hidden {
   display: none;
 }
+.coursegrid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.coursecontainer{
+  width: 100%;
+}
+.coursegriditem {
+  margin-bottom:10px;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  padding-left:2%;
+  display:none;
+}
+
 .teamgrid {
   display: flex;
   flex-wrap: wrap;
@@ -2005,7 +1991,7 @@ Courses--------------
   padding-left:2%;
   display:none;
 }
-#myBtnContainerteam {
+#myBtnContainerteam, #myBtnContainercourses {
   position:relative;
   display:inline-block;
   text-align:center;
@@ -2019,25 +2005,10 @@ Courses--------------
   background: #16dd97;
   z-index:500;
   margin-left:2%;
-  width:300px;
+  margin-right:30px;
+  width: 31.33333333333333333333333%;
 }
 
-#myBtnContainercourses {
-  position:relative;
-  display:inline-block;
-  text-align:center;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  padding:10px 30px;
-  transition: 0.5s;
-  color: #fff;
-  background: #16dd97;
-  z-index:500;
-  margin-left:2%;
-  width:550px;
-}
 
 .profilebutton {
   font-family: "Montserrat", sans-serif;
@@ -2079,21 +2050,41 @@ Courses--------------
 @media (min-width: 1200px) {
   .organizer {
     width:25%;
+  } 
+  #myBtnContainerteam{
+    width: 23%;
   }
 }
 @media (max-width: 768px) {
   .organizer {
-    width:50%;
+    width: 50%;
   }
-  #myBtnContainerteam, #myBtnContainercourses {
-    display: block;
-    width: 75%;
-    margin:auto;
+  #myBtnContainerteam{
+    width: 48%;
   }
 }
 @media (max-width: 576px) {
   .organizer {
     width:100%;
+  }
+  #myBtnContainerteam {
+    width: 98%;
+  }
+}
+@media (max-width:1200px) {
+  .coursegriditem {
+    width:50%;
+  }
+  #myBtnContainercourses {
+    width:48%;
+  }
+}
+@media (max-width:600px) {
+  .coursegriditem {
+    width:100%;
+  }
+  #myBtnContainercourses {
+    width:98%;
   }
 }
 /*--------------------------------------------------------------
