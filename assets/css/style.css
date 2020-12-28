@@ -40,10 +40,11 @@ color: #fff; }
 color: #fff; }
  
 
-/*
-green color:#16dd97
+/*Colors! important to keep track of
+green color::#4be8b0
 blue color: #4a9cff;
 */
+
 /*
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
@@ -487,6 +488,11 @@ p {
   color: #3366cc;
   margin-right: 0.5%;
   margin-left: 0.5%;
+  line-height:45px;
+}
+.backelement:hover {
+  text-decoration: none;
+  color:#4be8b0;
 }
 .backelement2 {
   font-size: 16px;
@@ -494,6 +500,7 @@ p {
   margin-right: 0.5%;
   margin-left: 0.5%;
   text-decoration: none;
+  line-height:45px;
 }
 .backicon {
   font-size: 16px;
@@ -575,10 +582,12 @@ body, html {
 /*//////////////////////////////////////////////////////////////////
 [ Table ]*/
 
-.courseinfo {
+.courseinfo, .breakdown {
   border-radius: 50px;
-  overflow: hidden;
-  
+  overflow: hidden; 
+}
+.breakdown {
+  display:none;
 }
 
 .coursehelp {
@@ -622,9 +631,12 @@ body, html {
   margin: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 994px) {
   .table1 {
-    display: block;
+    display: none;
+  }
+  .breakdown {
+    display:block;
   }
 }
 
@@ -1971,6 +1983,7 @@ Courses--------------
   margin-top: 2%;
   padding-left:2%;
   display:none;
+  width:33.33333333333333333333333%;
 }
 
 .teamgrid {
