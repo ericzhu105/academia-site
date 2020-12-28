@@ -9,7 +9,7 @@ $email_subject = "New subscription!";
                     "New user email: $visitor_email.\n";
  
 
-$to = "feedback@voicesofcarmel.com";
+$to = "subscription@academiaedge.com";
  
  
 $headers = "From: $email_from \r\n";
