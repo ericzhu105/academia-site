@@ -825,6 +825,25 @@ body, html {
   bottom: 0;
   background:  #3366cccb;
 }
+/*for courses.html*/
+.bg-imagecourses{
+  padding: 180px 0;
+  background: url("/acedemia-site/assets/img/courseimgbanner.png") no-repeat;
+  height: 45%;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-imagecourses::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background:  #3366cccb;
+}
 
 .bg-text {
   color: white;
