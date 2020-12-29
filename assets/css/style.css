@@ -1918,7 +1918,7 @@ Courses--------------
 .team .member .pic {
   border-radius: 4px;
   overflow: hidden;
-  max-height:  400px;
+  max-height:  410px;
 }
 
 .team .member img {
@@ -1993,6 +1993,10 @@ Courses--------------
   display: flex;
   flex-wrap: wrap;
 }
+.coursegridsciovirtual{
+  display: flex;
+  flex-wrap: wrap;
+}
 .coursecontainer{
   width: 100%;
 }
@@ -2003,6 +2007,13 @@ Courses--------------
   padding-left:2%;
   display:none;
   width:33.33333333333333333333333%;
+}
+.coursegridsciovirtualitem {
+  margin-bottom:10px;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  padding-left:2%;
+  width:25%;
 }
 
 .teamgrid {
@@ -2110,10 +2121,16 @@ Courses--------------
   #myBtnContainercourses {
     width:48%;
   }
+  .coursegridsciovirtualitem{
+    width: 50%;
+  }
 }
 @media (max-width:600px) {
   .coursegriditem {
     width:100%;
+  }
+  .coursegridsciovirtualitem{
+    width: 100%;
   }
   #myBtnContainercourses {
     width:98%;
