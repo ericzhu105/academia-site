@@ -2481,6 +2481,43 @@ Courses--------------
   background-color: white;
   color: #18d26e;
 }
+.button15 {
+  color: white; 
+  border: 2px solid#18d26e;
+  border-radius:25px;
+  background-color:#18d26e;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 800;
+  margin-top: 1%;
+}
+
+.button15 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button15 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button15:hover span {
+  padding-right: 15px;
+}
+
+.button15:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 
 .buttontext {
   font-size: 18px;
