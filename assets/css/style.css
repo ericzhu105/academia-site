@@ -828,7 +828,7 @@ body, html {
 /*for courses.html*/
 .bg-imagecourses{
   padding: 180px 0;
-  background: url("/acedemia-site/assets/img/courseimgbanner.png") no-repeat;
+  background: url("/assets/img/courseimgbanner.png") no-repeat;
   height: 45%;
   background-position: center center;
   background-size: cover;
