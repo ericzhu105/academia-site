@@ -201,6 +201,20 @@ p {
   font-size: 55px;
 }
 
+.bigherotext{
+  font-size: 55px; 
+  line-height:64px;
+}
+@media (max-width: 750px){
+  .bigherotext {
+    font-size: 35px !important;
+  }
+  .smallherotext {
+    font-size: 20px !important;
+    margin-top: 10%;
+  }
+}
+
 @media (max-width: 100px){
   .herotext{
     font-size: 35px !important;
