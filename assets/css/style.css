@@ -768,25 +768,6 @@ body, html {
 /*--------------------------------------------------------------
 # BG Section
 --------------------------------------------------------------*/
-/*for courses*/
-.bg-image {
-  padding: 180px 0;
-  background: url("/assets/img/coursebgimg.png") no-repeat;
-  height: 45%;
-  background-position: center center;
-  background-size: cover;
-  position: relative;
-}
-
-.bg-image::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background:  #3366cccb;
-}
 /*for team*/
 .bg-image2 {
   padding: 180px 0;
@@ -2481,6 +2462,7 @@ Courses--------------
   background-color: white;
   color: #18d26e;
 }
+/*how it works button on courses.html*/
 .button15 {
   color: white; 
   border: 2px solid#18d26e;
