@@ -41,8 +41,8 @@ color: #fff; }
  
 
 /*Colors! important to keep track of
-green color::#4be8b0
-blue color: #4a9cff;
+green color::#4be8b0 or rgb(75, 232, 176)
+blue color: #4a9cff or rgb(74,156,255)
 */
 
 /*
@@ -768,7 +768,24 @@ body, html {
 /*--------------------------------------------------------------
 # BG Section
 --------------------------------------------------------------*/
-/*for team*/
+.bg-image {
+  padding: 180px 0;
+  background: url("/assets/img/samplecourseimgbg.jpg") no-repeat;
+  height: 45%;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-image::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background:  #3366cccb;
+}
 .bg-image2 {
   padding: 180px 0;
   background: url("/assets/img/teambgimg.jpg") no-repeat;
@@ -1900,6 +1917,18 @@ Courses--------------
   border-radius: 4px;
   overflow: hidden;
   max-height:  410px;
+  position:relative;
+}
+.coursetag {
+  position:absolute;
+  z-index:2;
+  top:0;
+  left:0;
+  right:0;
+  background-color:rgb(75, 232, 176,0.9);
+  font-size:30px;
+  color:white;
+  text-transform: uppercase;
 }
 
 .team .member img {
