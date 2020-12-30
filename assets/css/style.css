@@ -2762,6 +2762,11 @@ Courses--------------
       .footer-contact .contact-list li .contact-info .info-content .text a:hover {
         color: #FD6300 ; }
 
+
+.footmargin{
+  height: 95%;
+}
+
 .footer-copyright .copyright {
   border-top: 2px solid #747E88;
   padding-top: 10px;
