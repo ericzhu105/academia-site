@@ -43,6 +43,7 @@ color: #fff; }
 /*Colors! important to keep track of
 green color::#4be8b0 or rgb(75, 232, 176)
 blue color: #4a9cff or rgb(74,156,255)
+dark blue color: #160483 or rgb(22,4,131);
 */
 
 /*
@@ -855,6 +856,11 @@ body, html {
   top: 0;
   bottom: 0;
   background:  #3366cccb;
+}
+.formatbutton {
+  transform: translate(-50%, -50%;);
+  text-align:center;
+  left:50%;
 }
 
 .bg-text {
@@ -1684,6 +1690,11 @@ Courses--------------
   margin-top:20px;
   white-space:normal;
 }
+.joinusheader {
+  text-align:center;
+  color:#160483;
+  font-weight:bold;
+}
 /*eliminating the arrow when screen large*/
 @media screen and (min-width: 992px) {
   .btn-to-sign-up span:after {
@@ -2505,7 +2516,7 @@ Courses--------------
   background-color: white;
   color: #18d26e;
 }
-/*how it works button on courses.html*/
+/*how it works button on courses.html and on joinus.html*/
 .button15 {
   color: white; 
   border: 2px solid#18d26e;
