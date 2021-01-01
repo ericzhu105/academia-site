@@ -1690,6 +1690,10 @@ Courses--------------
   margin-top:20px;
   white-space:normal;
 }
+.teamheader {
+  color:#160483;
+  font-weight:bold;
+}
 .joinusheader {
   text-align:center;
   color:#160483;
