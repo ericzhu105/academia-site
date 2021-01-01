@@ -2139,6 +2139,7 @@ Courses--------------
   position:absolute;
   margin-top:10px;/*margins are from the padding of myBtnContianer*/
   margin-left:-30px;
+  cursor:pointer;
 }
 #myBtnContainerteam:hover .dropdownfilter, #myBtnContainercourses:hover .dropdownfilter {
   display:block;
