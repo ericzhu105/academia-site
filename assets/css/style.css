@@ -1824,11 +1824,12 @@ Courses--------------
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials {
-  padding: 180px 0;
+  padding: 170px 0;
   background: url("https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
+  height: 475px;
 }
 
 .testimonials::before {
@@ -1848,6 +1849,7 @@ Courses--------------
 .testimonials .testimonial-item {
   text-align: center;
   color: #fff;
+  margin-top: -1.75%;
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -1895,7 +1897,7 @@ Courses--------------
 }
 
 .testimonials .owl-nav, .testimonials .owl-dots {
-  margin-top: 25px;
+  margin-top: 5px;
   text-align: center;
 }
 
@@ -1921,6 +1923,24 @@ Courses--------------
 @media (min-width: 992px) {
   .testimonials .testimonial-item p {
     width: 80%;
+  }
+}
+
+@media (max-width: 750px) {
+  .testimonials {
+    padding:125px 0;
+    background: url("https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 475px;
+  }
+  .testimonials .owl-dot {
+    display: none !important;
+  }
+  
+  .testimonials .owl-dot.active {
+    display: none !important;
   }
 }
 
