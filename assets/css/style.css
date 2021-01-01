@@ -1694,6 +1694,10 @@ Courses--------------
   text-align:center;
   color:#160483;
   font-weight:bold;
+  margin-bottom:20px;
+}
+.joinuslist li{
+  margin-bottom:20px;
 }
 /*eliminating the arrow when screen large*/
 @media screen and (min-width: 992px) {
