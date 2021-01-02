@@ -8,6 +8,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@charset "UTF-8";
 body, html {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -1445,6 +1446,35 @@ section {
 /*---------------------------------------------------------------
 Courses--------------
 -------------------------*/
+.sciovirtualbtn {
+  margin-bottom:10px;
+  background-color:#4a9cff;
+  border:none;
+  border-radius:5px;
+  display:block;
+  width:100%;
+  padding:10px;
+  color:white;
+  position:relative;
+  font-size:16px;
+}
+.sciovirtualbtn::after {
+  content:"\f107";
+  font-family:FontAwesome;
+  position:absolute;
+  right:30px;
+  font-size:30px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.sciovirtualbtn[aria-expanded="true"]::after {
+  content: "\f106";
+}
+.sciovirtualbtn:hover {
+  background-color:#4be8b0;
+}
 .courses {
   padding: 40px 0px 0px;
 }
