@@ -1733,6 +1733,11 @@ Courses--------------
 .joinuslist li{
   margin-bottom:20px;
 }
+@media (max-width: 992px){
+  .requirements{
+    margin-top: 15%;
+  }
+}
 /*eliminating the arrow when screen large*/
 @media screen and (min-width: 992px) {
   .btn-to-sign-up span:after {
