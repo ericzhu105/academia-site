@@ -112,6 +112,7 @@ p {
   bottom: 15px;
   z-index: 99999;
   left: 30px;
+  width: 10px;
 }
 
 .back-to-top i {
