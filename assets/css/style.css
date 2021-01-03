@@ -1733,9 +1733,17 @@ Courses--------------
 .joinuslist li{
   margin-bottom:20px;
 }
+.squestration{
+  padding-right: 12.5%;
+  padding-left: 12.5%;
+}
 @media (max-width: 992px){
   .requirements{
-    margin-top: 15%;
+    margin-top: 15s%;
+  }
+  .squestration{
+    padding-right: -12.5% !important;
+    padding-left: -12.5% !important;
   }
 }
 /*eliminating the arrow when screen large*/
