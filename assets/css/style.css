@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 @charset "UTF-8";
 body, html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif !important;
   color: #444444;
   overflow-x: hidden;
 }
