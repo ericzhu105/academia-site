@@ -417,6 +417,9 @@ p {
 .navflex {
   display:none;
 }
+.switchdesktop {
+  display:none;
+}
 
 @media (min-width: 770px) {
   .navflex {
@@ -425,7 +428,14 @@ p {
   .threebars {
     display: none !important;
   }
+  .switchmobile {
+    display:none;
+  }
+  .switchdesktop {
+    display:block;
+  }
 }
+
 
 
 .mobile-nav-toggle {
