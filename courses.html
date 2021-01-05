@@ -56,11 +56,12 @@
 
       <nav class="nav-menu navflex">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li class="switchmobile active"><a href="courses.html">Courses</a></li>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li class="switchmobile"><a href="courses.html">Courses</a></li>
           <li class="switchdesktop">
-            <div class="navdropdown active"><a>Courses</a>
+            <div class="navdropdown"><a href="/courses.html">Courses</a>
               <div class="navdropdown-content">
+                <a style ="font-size:16px;" href="/courses.html">Courses</a>
                 <a style ="font-size:16px;" href="/courses/webdevintro.html">Intro to Web Development</a>
                 <a style ="font-size:16px;" href="/courses/scratch.html">Scratch: A Basic Intro</a>
                 <a style ="font-size:16px;" href="/courses/pythonintro.html">Intro to Python</a>
@@ -73,6 +74,7 @@
                 <a style ="font-size:16px;" href="/courses/csharpinter.html">Intermediate C#</a>
                 <a style ="font-size:16px;" href="/courses/csharpadv.html">Advanced C#</a>
                 <a style ="font-size:16px;" href="/courses/rustintro.html">Intro to Rust</a>
+                <a style ="font-size:16px;" href="/courses/linuxintro.html">Intro to Game Dev</a>
                 <a style ="font-size:16px;" href="/courses/javaintro.html">Intro to Java</a>
                 <a style ="font-size:16px;" href="/courses/javacomp.html">Competitive Java</a>
                 <a style ="font-size:16px;" href="/courses/linuxintro.html">Intro to Linux</a>
@@ -82,6 +84,7 @@
          <!-- <li><a href="#gallery">Gallery</a></li> -->
           <li><a href="joinus.html">Join Us</a></li>
           <li><a href="team.html">Team</a></li>
+         <!--   <li><a href="#pricing">Donations</a></li> -->
          <!--/Users/nitrostrider/Desktop/Nitrostrider/acedemia-site/assets/js/main.js:-->
         </ul>
       </nav><!-- .nav-menu -->
@@ -91,7 +94,7 @@
 
   <div class="bg-imagecourses">
     <div class="bg-text">
-        <h1 data-aos="fade-left">Course Selection</h1>
+        <h1 data-aos="zoom-in">Course Selection</h1>
         <a target="_blank" href="\assets\pdf\Course Logistics.pdf">
           <button class="button15"  data-aos="fade-up"  data-aos-delay="100"><span>Course Logistics</span></button>
         </a>
@@ -139,7 +142,7 @@
           <but class="profilebutton" onclick="filterSelection('csharp')"> C#</but>
           <but class="profilebutton" onclick="filterSelection('rust')"> Rust</but>
           <but class="profilebutton" onclick="filterSelection('Java')"> Java</but>
-          <but class="profilebutton" onclick="filterSelection('linux')"> Linux</but>
+          <but class="profilebutton" onclick="filterSelection('gamedev')"> Game Development</but>
         </div>
       </div>
 
@@ -326,22 +329,6 @@
           </div>
         </div>
       </div>
-<!--
-      <div class="coursegriditem rust">
-        <div class="member">
-          <div class="pic">
-            <div class="coursetag">Coming soon!</div>
-            <img src="assets/img/courseimg/r2.png" class="img-fluid" style="margin-bottom:20%;" alt="Rust intermediate course image">
-          </div>
-          <div class="member-info">
-            <h4>Intermediate Programming with Rust</h4>
-            <span>Lead Teacher: Jacoby Yliemieni</span>
-            <div class="social">
-              <a target="https://forms.gle/1X1BVUYBTx4haDQPA" href="https://forms.gle/1X1BVUYBTx4haDQPA"><button class="button button1">Waitlist</button></a>
-            </div>
-          </div>
-        </div>
-      </div>-->
   
       <!-- Fill in correct link and photo info -->
       <div class="coursegriditem Java">
@@ -350,7 +337,7 @@
             <img src="assets/img/courseimg/javacourse.png" class="img-fluid" style="margin-bottom:20%;" alt="Java introduction image">
           </div>
           <div class="member-info">
-            <h4>Introduction to JAVA</h4>
+            <h4>Introduction to Java</h4>
             <span>Lead Teacher: Shiva Oswal</span>
             <div class="social">
               <a href="courses/javaintro.html"><button class="button button1">Learn More</button></a>
@@ -374,22 +361,23 @@
           </div>
         </div>
       </div>
-      
-      <div class="coursegriditem linux">
+
+      <div class="coursegriditem gamedev">
         <div class="member">
           <div class="pic">
             <div class="coursetag">Coming soon!</div>
-            <img src="assets/img/courseimg/linux.png" class="img-fluid" style="margin-bottom:20%;" alt="Introduction to Linux course image">
+            <img src="assets/img/courseimg/gamedevintro.jpeg" class="img-fluid" style="margin-bottom:20%;" alt="Game dev introduction course image">
           </div>
           <div class="member-info">
-            <h4>Introduction to Linux</h4>
-            <span>Lead Teacher: Jacoby Yliemieni</span>
+            <h4>Introduction to Game Development</h4>
+            <span>Lead Teacher: Razvan Anghel</span>
             <div class="social">
-              <a target="https://forms.gle/mwqLkEsSu2CHmRVG9" href="https://forms.gle/mwqLkEsSu2CHmRVG9"><button class="button button1">Waitlist</button></a>
+              <a target="_blank" href=""><button class="button button1">Waitlist</button></a>
             </div>
           </div>
         </div>
       </div>
+
   
   </section>
 
@@ -795,22 +783,20 @@
   </section>    
 </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
- <footer id="footer">
+<!-- ======= Footer ======= -->
+<footer id="footer">
   <div class="footer-top">
     <div class="container">
-      <div class="row">
+      <div class="row"> 
 
         <div class="col-lg-4 col-md-7">
           <div class="footer-info" data-aos="fade-right" data-aos-delay="200">
             <h3>AcademiaEdge</h3>
             <p>Carmel, USA</p>
-            <p><b>Email:</b></p>
             <p>contact@academiaedge.com</p>
-            <p>nexedgeinnovations@gmail.com</p>
             <p><b>Non-Profit EIN Number:</b></p>
             <p>ID: 81-2908499</p>
-            <a id="fsalink" href="assets/pdf/FSA.pdf">Fiscal Sponsership Agreement PDF</a>
+            <a id="fsalink" href="assets/pdf/FSA.pdf" style="padding-right: 2.5%; padding-left: 2.5%;">Fiscal Sponsorship Agreement PDF</a>
 
             <div class="social-links mt-3">
               <a target= "https://twitter.com/academiaedge" href="https://twitter.com/academiaedge" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -821,22 +807,22 @@
         </div>
 
         <div class="col-lg-3 col-md-5" data-aos="fade-right" data-aos-delay="100">
-           <div class="footer-links footer-info footmargin"><!--temporary fix to footer by adding new class, footer-info-->
-            <div class="footer-title">
-              <h3>Navigation</h3>
-            </div>
-            <ul class="footmargin" style="font-size: 17.5px;">
-              <li><i class="bx bx-chevron-right"></i><a class="activefooter"  href="index.html">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="courses.html">Courses</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="joinus.html">Join Us</a></li>
-              <li><i class="bx bx-chevron-right"></i><a href="team.html">Team</a></li>
-            </ul>
+          <div class="footer-links footer-info footmargin"><!--temporary fix to footer by adding new class, footer-info-->
+              <div class="footer-title">
+                <h3>Navigation</h3>
+              </div>
+              <ul class="footmargin" style="font-size: 17.5px;">
+                <li><i class="bx bx-chevron-right"></i><a class="activefooter"  href="index.html">Home</a></li>
+                <li><i class="bx bx-chevron-right"></i><a href="courses.html">Courses</a></li>
+                <li><i class="bx bx-chevron-right"></i><a href="joinus.html">Join Us</a></li>
+                <li><i class="bx bx-chevron-right"></i><a href="team.html">Team</a></li>
+              </ul>
           </div>
         </div>
           <!-- footer link wrapper -->
-          <div class="col-lg-5 col-md-12" style="width: 100%;"  data-aos="fade-right">
-            <div class="footer-info"><!--temporary fix to footer by adding new class, footer-info-->
-              <div class="footer-title">
+          <div class="col-lg-5 col-md-12" height="1200px" data-aos="fade-right">
+            <div class="footer-info" height="1200px"><!--temporary fix to footer by adding new class, footer-info-->
+              <div class="footer-title" height="1200px">
                 <h3>Follow Our Newsletter</h3>
               </div>
               <form action="subscription.php" method="post" id="tran" style="margin-top: 7.25%; margin-bottom: 1%;">
