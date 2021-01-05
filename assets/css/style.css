@@ -2009,7 +2009,7 @@ Courses--------------
 }
 
 .team .member .pic {
-  border-radius: 4px;
+  border-radius: 10px;
   overflow: hidden;
   max-height:  410px;
   position:relative;
@@ -2043,6 +2043,7 @@ Courses--------------
   padding: 15px 0;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius:10px;
 }
 
 
@@ -2156,6 +2157,7 @@ Courses--------------
   margin-left:2%;
   margin-right:30px;
   width: 31.33333333333333333333333%;
+  border-radius:10px;
 }
 
 
