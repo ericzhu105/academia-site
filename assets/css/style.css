@@ -2620,13 +2620,17 @@ Courses--------------
 
 .button15:hover span {
   padding-right: 15px;
+  color:white;
 }
 
 .button15:hover span:after {
   opacity: 1;
   right: 0;
 }
-
+.teambox {
+  padding-top:10px;
+  padding-bottom:10px;
+}
 .buttontext {
   font-size: 18px;
 }
