@@ -461,7 +461,7 @@ p {
   position: fixed;
   top: 55px;
   right: 10px;
-  left: 30%;
+  left: 60%;
   bottom:10px;
   z-index: 9999;
   overflow-y: auto;
