@@ -2689,6 +2689,7 @@ Courses--------------
   border-top: 4px solid #18d26e;
   text-align: center;
   padding: 30px 20px;
+  height:auto;
 }
 
 #footer .footer-top .footer-info h3 {
@@ -2704,6 +2705,7 @@ Courses--------------
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
+  margin-bottom:10px;
 }
 
 #footer .footer-top .social-links a {
@@ -2815,6 +2817,13 @@ Courses--------------
   padding-top: 30px;
 }
 
+#fsalink:hover {
+  text-decoration:none;
+  background-color:#1acc8d;
+  border-radius:10px;
+  color:white;
+  padding:5px;
+}
 #footer .credits {
   padding-top: 10px;
   text-align: center;
