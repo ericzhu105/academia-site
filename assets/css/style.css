@@ -1184,6 +1184,7 @@ section {
 
 .section-bg {
   background-color: #f5f5ff;
+  border-radius: 50px;
 }
 
 .section-title {
@@ -1856,6 +1857,7 @@ Courses--------------
   position: relative;
   text-align: center;
   background: #f5f5ff;
+  border-radius: 10px;
 }
 
 .counts .count-box i {
@@ -2423,11 +2425,17 @@ Courses--------------
 --------------------------------------------------------------*/
 .faq .faq-list {
   padding: 0;
+  border-radius: 50px;
+}
+
+.faq-list {
+  border-radius: 50px;
 }
 
 .faq .faq-list ul {
   padding: 0;
   list-style: none;
+  border-radius: 50px;
 }
 
 .faq .faq-list li + li {
@@ -2450,6 +2458,7 @@ Courses--------------
   font-weight: 500;
   padding: 0 30px;
   outline: none;
+  border-radius: 50px;
 }
 
 .faq .faq-list .icon-help {
@@ -2465,11 +2474,13 @@ Courses--------------
   position: absolute;
   right: 0;
   top: 0;
+  border-radius: 50px;
 }
 
 .faq .faq-list p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
+  border-radius: 50px;
 }
 
 .faq .faq-list .icon-show {
@@ -2752,7 +2763,6 @@ Courses--------------
   border-top: 4px solid #18d26e;
   text-align: center;
   padding: 30px 20px;
-  height:auto;
 }
 
 #footer .footer-top .footer-info h3 {
@@ -2951,6 +2961,13 @@ Courses--------------
 
 .footmargin{
   height: 95%;
+  padding-bottom: 15% ;
+}
+
+@media (max-width: 1000px){
+  .footmargin{
+    padding-bottom: -50% !important;
+  }
 }
 
 .footer-copyright .copyright {
