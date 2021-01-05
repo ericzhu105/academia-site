@@ -231,6 +231,59 @@ p {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
+.navdropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.navdropdown > a {
+  display: block;
+  position: relative;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 10px 0 10px 25px;
+  transition: 0.3s;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+.navdropdown > a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navdropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  height:400px;
+  overflow:scroll;
+  left:25px;
+  width:250px;
+  border-radius:10px;
+}
+
+.navdropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.navdropdown-content a:hover {
+  background-color:#f1f1f1;
+  color:#1acc8d;
+}
+.navdropdownactive {
+  background-color:#f1f1f1;
+  color:#1acc8d!important;
+}
+
+.navdropdown:hover .navdropdown-content {
+  display: block;
+}
+
 .nav-menu, .nav-menu * {
   margin: 0;
   padding: 0;
@@ -243,7 +296,7 @@ p {
   float: left;
 }
 
-.nav-menu a {
+.nav-menu > ul > li > a{
   display: block;
   position: relative;
   color: rgba(255, 255, 255, 0.7);
@@ -253,6 +306,7 @@ p {
   font-weight: 400;
   font-family: "Poppins", sans-serif;
 }
+
 
 .nav-menu > ul > li > a:before {
   content: "";
@@ -276,7 +330,7 @@ p {
   width: 25px;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-m.penu li:hover > a {
+.nav-menu > ul > li > a:hover, .nav-menu .active > a, .nav-m.penu li:hover > a {
   color: #fff;
   text-decoration: none;
 }
@@ -397,7 +451,7 @@ p {
   position: fixed;
   top: 55px;
   right: 10px;
-  left: 50%;
+  left: 30%;
   bottom:10px;
   z-index: 9999;
   overflow-y: auto;
@@ -420,7 +474,6 @@ p {
   position: relative;
   color: #2063A5;
   padding: 10px 20px;
-  font-weight: 500;
   outline: none;
   font-size:25px;
 }
@@ -2689,6 +2742,7 @@ Courses--------------
   border-top: 4px solid #18d26e;
   text-align: center;
   padding: 30px 20px;
+  height:auto;
 }
 
 #footer .footer-top .footer-info h3 {
@@ -2704,6 +2758,7 @@ Courses--------------
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Montserrat", sans-serif;
+  margin-bottom:10px;
 }
 
 #footer .footer-top .social-links a {
@@ -2815,6 +2870,13 @@ Courses--------------
   padding-top: 30px;
 }
 
+#fsalink:hover {
+  text-decoration:none;
+  background-color:#1acc8d;
+  border-radius:10px;
+  color:white;
+  padding:5px;
+}
 #footer .credits {
   padding-top: 10px;
   text-align: center;
