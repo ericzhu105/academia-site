@@ -694,11 +694,11 @@ body, html {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 33px 30px;
+  padding-top:20px;
 }
 
 .wrap-table100 {
-  width: 960px;
+  width:1100px;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -771,7 +771,7 @@ body, html {
   color: #666666;
   line-height: 1.2;
   font-weight: 500 !important;
-
+  text-align:center;
   padding-top: 10px;
   padding-bottom: 20px;
   border-bottom: 1px solid #f2f2f2;
@@ -782,32 +782,34 @@ body, html {
   color: #fff;
   line-height: 1.2;
   font-weight: unset !important;
-
   padding-top: 19px;
   padding-bottom: 19px;
+  text-align:center;
 }
 
 .row1 .cell:nth-child(1) {
-  width: 16.66666777%;
-  padding-left: 40px;
+  width: 10%;
 }
 
 .row1 .cell:nth-child(2) {
-  width: 18.333333333%;
+  width: 16%;
 }
 
 .row1 .cell:nth-child(3) {
-  width: 15%;
+  width: 16%;
 }
 
 .row1 .cell:nth-child(4) {
-  width: 16.66666777%;
+  width: 14%;
 }
 .row1 .cell:nth-child(5) {
-  width: 16.66666777%;
+  width: 14%;
 }
 .row1 .cell:nth-child(6) {
-  width: 16.66666777%;
+  width: 14%;
+}
+.row1 .cell:nth-child(7) {
+  width: 16%;
 }
 
 .table1, .row1 {
