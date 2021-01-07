@@ -1196,7 +1196,7 @@ section {
   padding-bottom:20px;
 }
 
-.section-title h2, .section-titlebtnbelow h2 {
+.section-title h2, .section-titlebtnbelow h2, .projectheader {
   font-size: 14px;
   font-weight: 500;
   padding: 0;
@@ -1208,7 +1208,7 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.section-title h2::after, .section-titlebtnbelow h2::after {
+.section-title h2::after, .section-titlebtnbelow h2::after, .projectheader::after {
   content: "";
   width: 120px;
   height: 1px;
@@ -1223,7 +1223,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", "sans-serif";
   color: #010483;
 }
 
