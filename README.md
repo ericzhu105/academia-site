@@ -1,4 +1,4 @@
-# acedemia-site
+# academia-site
 ## Welcome! We are adopting a new look for our old website.
 
 Netifly Link:https://academiaedge.netlify.app/
