@@ -34,17 +34,29 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- js for using same nav and footer code-->
   <script
     src="https://code.jquery.com/jquery-3.3.1.js"
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous">
-</script>
-<script> 
-$(function(){
-  $("#headertest").load("header.html"); 
-  $("#footertest").load("footer.html"); 
-});
-</script>
+  </script>
+  <script>
+  $(function(){
+    $("#sameheader").load("header.html"); 
+    $("#samefooter").load("footer.html"); 
+  });
+  </script>
+  
+  <!--for active footer and active navbar styling-->
+  <style type="text/css">
+    #footer .footer-top .footer-links ul li {
+  color: blue;
+}
+    .footeractivelist li:first-child{
+      color:pink;
+    }
+  </style>
 
 </head>
 
@@ -513,7 +525,7 @@ $(function(){
     </div>
     </section>    
   </main><!-- End #main -->
-<div id="footertest"></div>
+<div id="samefooter"></div>
   <a href="#" class="back-to-top" width = "10%"><i class="icofont-simple-up"></i></a>
   <div id="preloader"></div>
 
