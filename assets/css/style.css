@@ -2856,9 +2856,6 @@ Courses--------------
   display: inline-block;
   line-height: 1;
 }
-#footer .footer-top .footer-links ul li {
-  color: pink;
-}
 
 #footer .footer-top .footer-links ul a:hover {
   color: #4be8b0;
