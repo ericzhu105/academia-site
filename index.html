@@ -7,7 +7,7 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>AcademiaEdge - Home</title>
-  <meta content="" name="descriptison">
+  <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
@@ -35,29 +35,13 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- js for using same nav and footer code-->
-  <script
-    src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous">
-  </script>
-  <script>
-  $(function(){
-    $("#sameheader").load("header.html"); 
-    $("#samefooter").load("footer.html"); 
-  });
-  </script>
-  
   <!--for active footer and active navbar styling-->
   <style type="text/css">
-    #footer .footer-top .footer-links ul li {
-  color: blue;
-}
-    .footeractivelist li:first-child{
-      color:pink;
+    #footer .footer-top .footer-links ul li:nth-child(1) {
+      color: #4be8b0;
     }
-  </style>
 
+  </style>
 </head>
 
 <body style="margin-bottom: -25%;">
@@ -73,46 +57,32 @@
         <!-- Uncomment below if you prefer to use an image logo -->
       </div>
 
+      <!--nav menu-->
+      
       <nav class="nav-menu navflex">
-        <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li class="switchmobile"><a href="courses.html">Courses</a></li>
+        <ul id="getnavactive">
+          <li><a href="/index.html">Home</a></li>
+          <li class="switchmobile"><a href="/courses.html">Courses</a></li>
           <li class="switchdesktop">
             <div class="navdropdown"><a href="/courses.html">Courses</a>
-              <div class="navdropdown-content">
-                <a style ="font-size:16px;" href="/courses/webdevintro.html">Intro to Web Development</a>
-                <a style ="font-size:16px;" href="/courses/scratch.html">Scratch: A Basic Intro</a>
-                <a style ="font-size:16px;" href="/courses/pythonintro.html">Intro to Python</a>
-                <a style ="font-size:16px;" href="/courses/pythonauto.html">Python: Automation</a>
-                <a style ="font-size:16px;" href="/courses/pygame.html">Python: PyGame</a>
-                <a style ="font-size:16px;" href="/courses/pythonml.html">Python: Machine Learning</a>
-                <a style ="font-size:16px;" href="/courses/pythondl.html">Python: Deep Learning</a>
-                <a style ="font-size:16px;" href="/courses/jsintro.html">Intro to JavaScript</a>
-                <a style ="font-size:16px;" href="/courses/csharpintro.html">Intro to C#</a>
-                <a style ="font-size:16px;" href="/courses/csharpinter.html">Intermediate C#</a>
-                <a style ="font-size:16px;" href="/courses/csharpadv.html">Advanced C#</a>
-                <a style ="font-size:16px;" href="/courses/rustintro.html">Intro to Rust</a>
-                <a style ="font-size:16px;" href="/courses/javaintro.html">Intro to Java</a>
-                <a style ="font-size:16px;" href="/courses/javacomp.html">Competitive Java</a>
-                <a style ="font-size:16px;" href="/courses/gamedevintro.html">Intro to Game Development</a>
-              </div>
+              <div id="sameheader"></div>
             </div>
           </li>
-         <!-- <li><a href="#gallery">Gallery</a></li> -->
-          <li><a href="joinus.html">Join Us</a></li>
-          <li><a href="team.html">Team</a></li>
-         <!--   <li><a href="#pricing">Donations</a></li> -->
+          <li><a href="/joinus.html">Join Us</a></li>
+          <li><a href="/team.html">Team</a></li>
          <!--/Users/nitrostrider/Desktop/Nitrostrider/acedemia-site/assets/js/main.js:-->
         </ul>
-      </nav>
+        </nav>
 
     </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
+
     <div class="container">
       <div class="row" style="margin-top: 4.5%;">
+        
         <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
           <div data-aos="zoom-out">
             <h1 class="bigherotext">Improve Your Coding Skills With<span> AcademiaEdge</span></h1>
@@ -122,9 +92,11 @@
             </div>
           </div>
         </div>
+
         <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300" style="padding-left: 2%;">
           <img src="assets/img/hero-img5.png" class="img-fluid animated" alt="">
         </div>
+
       </div>
     </div>
 
@@ -539,6 +511,22 @@
   <script src="assets/vendor/counterup/counterup.min.js"></script>
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
+    <!-- js for using same nav and footer code-->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+  </script>
+  <script>
+  $(function(){
+    $("#sameheader").load("/timesaving/dropdown.html"); 
+    $("#samefooter").load("/timesaving/footer.html"); 
+  });
+  </script>
+    <script>
+      var c = document.getElementById("getnavactive").children;
+      c[0].classList.add("active");
+    </script>
   
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
