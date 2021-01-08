@@ -32,12 +32,27 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!--for active footer and active navbar styling-->
   <style type="text/css">
     #footer .footer-top .footer-links ul li:nth-child(4) {
       color: #4be8b0;
     }
-
   </style>
+  <!-- js for using same nav and footer code-->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script>
+    $(function () {
+      $("#samedropdown").load("/timesaving/dropdown.html");
+      $("#samefooter").load("/timesaving/footer.html");
+    });
+  </script>
+  <!--<script>
+    var c = document.getElementById("getnavactive").children;
+    c[0].classList.add("active");
+  </script>-->
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </head>
 
@@ -564,18 +579,7 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 </script>
-  <!-- js for using same nav and footer code-->
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous">
-</script>
-<script>
-$(function(){
-  $("#samedropdown").load("/timesaving/dropdown.html"); 
-  $("#samefooter").load("/timesaving/footer.html"); 
-});
-</script>
+
 </body>
 
 </html>

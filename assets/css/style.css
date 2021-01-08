@@ -540,7 +540,7 @@ p {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgb(32, 99, 165,0.9);
+  background: rgba(32, 99, 165,0.9);
   overflow: hidden;
   display: none;
   transition: ease-in-out 0.2s;
