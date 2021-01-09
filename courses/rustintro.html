@@ -35,6 +35,28 @@
   <!-- Template Main CSS File -->
   <link href="/assets/css/style.css" rel="stylesheet">
 
+  <!--for active footer and active navbar styling-->
+  <style type="text/css">
+    #footer .footer-top .footer-links ul li:nth-child(2) {
+      color: #4be8b0;
+    }
+  </style>
+  <!-- js for using same nav and footer code-->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script>
+    $(function () {
+      $("#samedropdown").load("/timesaving/dropdown.html");
+      $("#samefooter").load("/timesaving/footer.html");
+    });
+  </script>
+  <!--<script>
+    var c = document.getElementById("getnavactive").children;
+    c[0].classList.add("active");
+  </script>-->
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </head>
 <body style="margin-bottom: -25%;" id="course">
 <!-- Start of HubSpot Embed Code -->
@@ -44,13 +66,13 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center header-transparent">
     <div class="container d-flex align-items-center">
-
       <div class="logo mr-auto">
         <!--<a href="index.html"><img src="assets/img/hero-img.png" style="height:50px;width:50px;display:inline-block;"alt="" class="img-fluid"></a>-->
-        <h1 class="text-light" style="display:inline-block"><a href="/index.html">AcademiaEdge</a></h1>
+        <h1 class="text-light" style="display:inline-block"><a href="index.html">AcademiaEdge</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
-        
       </div>
+
+      <!--nav menu-->
 
       <nav class="nav-menu navflex">
         <ul>
@@ -58,32 +80,14 @@
           <li class="switchmobile active"><a href="/courses.html">Courses</a></li>
           <li class="switchdesktop">
             <div class="navdropdown active"><a href="/courses.html">Courses</a>
-              <div class="navdropdown-content">
-                <a style ="font-size:16px;" href="/courses/webdevintro.html">Intro to Web Development</a>
-                <a style ="font-size:16px;" href="/courses/scratch.html">Scratch: A Basic Intro</a>
-                <a style ="font-size:16px;" href="/courses/pythonintro.html">Intro to Python</a>
-                <a style ="font-size:16px;" href="/courses/pythonauto.html">Python: Automation</a>
-                <a style ="font-size:16px;" href="/courses/pygame.html">Python: PyGame</a>
-                <a style ="font-size:16px;" href="/courses/pythonml.html">Python: Machine Learning</a>
-                <a style ="font-size:16px;" href="/courses/pythondl.html">Python: Deep Learning</a>
-                <a style ="font-size:16px;" href="/courses/jsintro.html">Intro to JavaScript</a>
-                <a style ="font-size:16px;" href="/courses/csharpintro.html">Intro to C#</a>
-                <a style ="font-size:16px;" href="/courses/csharpinter.html">Intermediate C#</a>
-                <a style ="font-size:16px;" class="navdropdownactive" href="/courses/csharpadv.html">Advanced C#</a>
-                <a style ="font-size:16px;" href="/courses/rustintro.html">Intro to Rust</a>
-                <a style ="font-size:16px;" href="/courses/javaintro.html">Intro to Java</a>
-                <a style ="font-size:16px;" href="/courses/javacomp.html">Competitive Java</a>
-                <a style ="font-size:16px;" href="/courses/gamedevintro.html">Intro to Game Development</a>
-              </div>
+              <div id="samedropdown"></div>
             </div>
           </li>
-         <!-- <li><a href="#gallery">Gallery</a></li> -->
           <li><a href="/joinus.html">Join Us</a></li>
           <li><a href="/team.html">Team</a></li>
-         <!--   <li><a href="#pricing">Donations</a></li> -->
-         <!--/Users/nitrostrider/Desktop/Nitrostrider/acedemia-site/assets/js/main.js:-->
+          <!--/Users/nitrostrider/Desktop/Nitrostrider/acedemia-site/assets/js/main.js:-->
         </ul>
-      </nav><!-- .nav-menu -->
+      </nav>
 
     </div>
   </header><!-- End Header -->
@@ -338,65 +342,7 @@
     </section>    
   </main><!-- End #main -->
 
-<!-- ======= Footer ======= -->
-<footer id="footer">
-  <div class="footer-top">
-    <div class="container">
-      <div class="row"> 
-
-        <div class="col-lg-4 col-md-7">
-          <div class="footer-info" data-aos="fade-right" data-aos-delay="200">
-            <h3>AcademiaEdge</h3>
-            <p>Carmel, USA</p>
-            <p>contact@academiaedge.com</p>
-            <p><b>Non-Profit EIN Number:</b></p>
-            <p>ID: 81-2908499</p>
-            <a id="fsalink" href="/assets/pdf/FSA.pdf" style="padding-right: 2.5%; padding-left: 2.5%;">Fiscal Sponsorship Agreement PDF</a>
-
-            <div class="social-links mt-3">
-              <a target= "https://twitter.com/academiaedge" href="https://twitter.com/academiaedge" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a target= "https://www.facebook.com/AcademiaEdge-110860467463732/" href="https://www.facebook.com/AcademiaEdge-110860467463732/" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a target= "https://www.instagram.com/academiaedge/?hl=en" href="https://www.instagram.com/academiaedge/?hl=en" class="instagram"><i class="bx bxl-instagram"></i></a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-5" data-aos="fade-right" data-aos-delay="100">
-          <div class="footer-links footer-info footmargin"><!--temporary fix to footer by adding new class, footer-info-->
-              <div class="footer-title">
-                <h3>Navigation</h3>
-              </div>
-              <ul class="footmargin" style="font-size: 17.5px;">
-                <li><i class="bx bx-chevron-right"></i><a href="/index.html">Home</a></li>
-                <li><i class="bx bx-chevron-right"></i><a class="activefooter" href="/courses.html">Courses</a></li>
-                <li><i class="bx bx-chevron-right"></i><a href="/joinus.html">Join Us</a></li>
-                <li><i class="bx bx-chevron-right"></i><a href="/team.html">Team</a></li>
-              </ul>
-          </div>
-        </div>
-          <!-- footer link wrapper -->
-          <div class="col-lg-5 col-md-12" height="1200px" data-aos="fade-right">
-            <div class="footer-info" height="1200px"><!--temporary fix to footer by adding new class, footer-info-->
-              <div class="footer-title" height="1200px">
-                <h3>Follow Our Newsletter</h3>
-              </div>
-              <form action="subscription.php" method="post" id="tran" style="margin-top: 7.25%; margin-bottom: 1%;">
-                <input type="text"  placeholder="Name" name="name"   style="color:black;" required>
-                <input type="Email" placeholder="Email" name="email" style="color:black;" required>
-                <input  type="submit" value="Subscribe" name="submit" class="btn_email" class="email main-btn main-btn-2"  style="width:100%; font-size:18px; padding:15px; background-color:#0898E7;">
-              </form>
-              </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="copyright">&copy; Copyright <strong><span> AcademiaEdge</span></strong>. All Rights Reserved</div>
-  </div>
-</footer>
-<!-- End Footer -->
+  <div id="samefooter"></div>
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
   <div id="preloader"></div>
@@ -412,8 +358,8 @@
   <script src="/assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="/assets/vendor/aos/aos.js"></script>
   
-  <!-- Template Main JS File -->
-  <script src="/assets/js/main.js"></script>
+  <!-- Template Main2 JS File -->
+  <script src="assets/js/main2.js"></script>
 
 </body>
 
