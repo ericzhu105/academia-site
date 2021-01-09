@@ -9,7 +9,7 @@
     // Preloader
     $(window).on('load', function() {
       if ($('#preloader').length) {
-        $('#preloader').delay(100).fadeOut('slow', function() {
+        $('#preloader').delay(10).fadeOut('fast', function() {
           $(this).remove();
         });
       }
@@ -123,9 +123,9 @@
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
-    dots: true,
+    dots: false,
     loop: true,
-    items: 1
+    items: 1,
   });
 
 })(jQuery);
