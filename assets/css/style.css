@@ -698,9 +698,10 @@ body, html {
 }
 
 .wrap-table100 {
-  width:1100px;
+  width:90%;
   border-radius: 10px;
   overflow: hidden;
+  max-width:1100px;
 }
 
 .table1 {
@@ -709,7 +710,7 @@ body, html {
   margin: 0;
 }
 
-@media screen and (max-width: 994px) {
+@media screen and (max-width: 990px) {
   .table1 {
     display: none;
   }
