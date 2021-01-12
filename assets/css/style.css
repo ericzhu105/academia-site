@@ -1966,7 +1966,6 @@ Courses--------------
 .testimonials .testimonial-item {
   text-align: center;
   color: #fff;
-  margin-top: -1.75%;
 }
 
 .testimonials .testimonial-item .testimonial-img {
@@ -2037,7 +2036,7 @@ Courses--------------
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 900px) {
   .testimonials .testimonial-item p {
     width: 80%;
   }
